@@ -19,17 +19,14 @@ module.exports ={
 				}
 			},
 			{
+				test: /\.json$/,
+				loader: 'json-loader'
+			},
+			{
 				test: /\.css$/,
 				loader: ExtractTextPlugin.extract('css-loader')
 			},
-			{
-				test: /\.jpg$/,
-				loader: 'file-loader'
-			}
 		]
-	},
-	resolve: {
-		extensions: ['.js', '.json'] 
 	},
 	plugins: [
 		new ExtractTextPlugin('styles.min.css')

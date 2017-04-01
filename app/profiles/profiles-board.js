@@ -4,6 +4,8 @@ import Axios from 'axios';
 import Profile from './profile.js';
 import ProfileSelector from './profile-selector.js';
 
+import profiles from './profiles.json';
+
 // const profiles = axios.get(./profiles.json);
 
 class ProfilesBoard extends React.Component {
