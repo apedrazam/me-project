@@ -1,10 +1,10 @@
 import React from 'react';
 import Axios from 'axios';
 
-import Profile from './profiles/profile.js';
-import ProfileSelector from './profiles/profile-selector.js';
+import Profile from './profile.js';
+import ProfileSelector from './profile-selector.js';
 
-const profiles = axios.get(./profiles.json);
+// const profiles = axios.get(./profiles.json);
 
 class ProfilesBoard extends React.Component {
 	render() {
@@ -13,9 +13,6 @@ class ProfilesBoard extends React.Component {
 				<p>Texto de ProfilesBoard</p>
 				<Profile/>
 			</div>
-			<ul>
-
-			</ul>
 		)
 	}
 }
