@@ -1,0 +1,644 @@
+{
+	"profiles": [
+		{
+			"id": 1,
+			"name": "THE UI DEVELOPER",
+			"thumbnailURL": "",
+			"text": "This ME believes in a strong definition of concepts. He dreams with a modular world full of beautiful neat transitions, accessible to everyone and available in any screen resolution.",
+			"imageURL" : "",
+			"skillsCategories": [
+				{
+					"categoryName": "Knowledge",
+					"skills": [
+						{
+							"skillName": "Modularity",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Accesibility",
+							"skillLevel": 3 
+						},
+						{
+							"skillName": "Mobile First",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "CSS Animations",
+							"skillLevel": 3
+						}
+					]
+				},
+				{
+					"categoryName": "Tools",
+					"skills": [
+						{
+							"skillName": "HTML5",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "CSS3",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "Javascript",
+							"skillLevel": 3
+						},
+						{
+							"skillName": "Gulp",
+							"skillLevel": 2
+						}
+					]
+				}
+			],
+			"readings": [
+				{
+					"readingName": "",
+					"readingURL": ""
+				}
+			]
+
+		},
+		{
+			"id": 2,
+			"name": "THE UX/UI CONSULTANT",
+			"thumbnailURL": "",
+			"text": "This mate conceives the web as a way of narration. He stands for the creation of meaningful flows crowded with strong charismatic interfaces so our story can be tell the best way possible for our users.",
+			"imageURL" : "",
+			"skillsCategories": [
+				{
+					"categoryName": "Knowledge",
+					"skills": [
+						{
+							"skillName": "Information Architecture",
+							"skillLevel": 3
+						},
+						{
+							"skillName": "Responsive Web Design",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "Interface Design",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "User Testing",
+							"skillLevel": 2
+						}
+					]
+				},
+				{
+					"categoryName": "Tools",
+					"skills": [
+						{
+							"skillName": "Sketch",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Invisio",
+							"skillLevel": 2
+						},
+						{
+							"skillName": "Pens and paper",
+							"skillLevel": 4
+						}
+					]
+				}
+			],
+			"readings": [
+				{
+					"readingName": "",
+					"readingURL": ""
+				}
+			]
+
+		},
+		{
+			"id": 3,
+			"name": "THE FRAMEWORKER",
+			"thumbnailURL": "",
+			"text": "Working in big companies, you usually have to rush in order to reach the team’s goal on time. A good framework can become your best friend for this kind of situations.",
+			"imageURL" : "",
+			"skillsCategories": [
+				{
+					"categoryName": "JS Frameworks",
+					"skills": [
+						{
+							"skillName": "AngularJS",
+							"skillLevel": 3
+						},
+						{
+							"skillName": "JQuery",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "React",
+							"skillLevel": 2
+						}
+					]
+				},
+				{
+					"categoryName": "Visual Frameworks",
+					"skills": [
+						{
+							"skillName": "Bootstrap 3",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "Angular Materials",
+							"skillLevel": 3
+						}
+					]
+				},
+				{
+					"categoryName": "CSS Preprocessors",
+					"skills": [
+						{
+							"skillName": "SASS",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "LESS",
+							"skillLevel": 4
+						}
+					]
+				},
+				{
+					"categoryName": "CMS",
+					"skills": [
+						{
+							"skillName": "Wordpress",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Liferay",
+							"skillLevel": 3
+						},
+						{
+							"skillName": "Grav",
+							"skillLevel": 3
+						}
+					]
+				}
+			],
+			"readings": [
+				{
+					"readingName": "",
+					"readingURL": ""
+				}
+			]
+
+		},
+		{
+			"id": 4,
+			"name": "THE VISUAL DESIGNER",
+			"thumbnailURL": "",
+			"text": "This ME was the first one in the professional world. He doesn’t have great drawing skills but tons of ideas. That’s why he felt in love with bézier curves, funny montages and identity briefs right in the moment he met them.",
+			"imageURL" : "",
+			"skillsCategories": [
+				{
+					"categoryName": "Knowledge",
+					"skills": [
+						{
+							"skillName": "Composition",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "Typography",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Branding",
+							"skillLevel": 2
+						},
+						{
+							"skillName": "Wireframing",
+							"skillLevel": 4
+						}
+					]
+				},
+				{
+					"categoryName": "Tools",
+					"skills": [
+						{
+							"skillName": "Sketch",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Photoshop",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Illustrator",
+							"skillLevel": 3
+						},
+						{
+							"skillName": "InDesign",
+							"skillLevel": 1
+						}
+					]
+				}
+			],
+			"readings": [
+				{
+					"readingName": "",
+					"readingURL": ""
+				}
+			]
+
+		},
+		{
+			"id": 5,
+			"name": "THE HYPE FOCUSED",
+			"thumbnailURL": "",
+			"text": "This ME wants to impress you. He is curious and he is terrified of dying if he stops. That’s why this ME browses the web trying to know and learn what is going on.",
+			"imageURL" : "",
+			"skillsCategories": [
+				{
+					"categoryName": "Looking at",
+					"skills": [
+						{
+							"skillName": "CSS in JS",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Progressive Enhancement",
+							"skillLevel": 3
+						}
+					]
+				},
+				{
+					"categoryName": "Working with",
+					"skills": [
+						{
+							"skillName": "Polymer",
+							"skillLevel": 1
+						},
+						{
+							"skillName": "React",
+							"skillLevel": 2
+						},
+						{
+							"skillName": "CSS3 Grid",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "ECMAScript 6",
+							"skillLevel": 1
+						}
+					]
+				}
+			],
+			"readings": [
+				{
+					"readingName": "",
+					"readingURL": ""
+				}
+			]
+
+		},
+		{
+			"id": 6,
+			"name": "THE CONTENT DEFENDER",
+			"thumbnailURL": "",
+			"text": "In IT is really common to start building design without any content at all. This mate thinks the best way to structure and build a design is working over the actual content and forgetting the Lorem Ipsum. He will always be pleased to work in this kind of project in order to provide better results.",
+			"imageURL" : "",
+			"skillsCategories": [
+				{
+					"categoryName": "Knowledge",
+					"skills": [
+						{
+							"skillName": "Information Architecture",
+							"skillLevel": 3
+						},
+						{
+							"skillName": "Synthesize",
+							"skillLevel": 4
+						}
+					]
+				},
+				{
+					"categoryName": "Tools",
+					"skills": [
+						{
+							"skillName": "Reading",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "Pens and paper",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Navigation flows",
+							"skillLevel": 3
+						}
+					]
+				}
+			],
+			"readings": [
+				{
+					"readingName": "",
+					"readingURL": ""
+				}
+			]
+
+		},
+		{
+			"id": 7,
+			"name": "THE TEAM PLAYER",
+			"thumbnailURL": "",
+			"text": "This ME is really social and he has realised that there is nothing better than working in a good project with a great team. Even if the project isn’t so cool, working with the correct people creates revenue and makes us better workers.",
+			"imageURL" : "",
+			"skillsCategories": [
+				{
+					"categoryName": "Knowledge",
+					"skills": [
+						{
+							"skillName": "Agile Methodology",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Version management systems",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Good Communication",
+							"skillLevel": 5
+						}
+					]
+				},
+				{
+					"categoryName": "Tools",
+					"skills": [
+						{
+							"skillName": "SCRUM",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Git",
+							"skillLevel": 3
+						},
+						{
+							"skillName": "Positive Attitude",
+							"skillLevel": 5
+						}
+					]
+				}
+			],
+			"readings": [
+				{
+					"readingName": "",
+					"readingURL": ""
+				}
+			]
+
+		},
+		{
+			"id": 8,
+			"name": "THE WANDERLUSTER",
+			"thumbnailURL": "",
+			"text": "Travel, hike, learn, visit any lost corner of the world. We live in a world where we can go almost everywhere and met the furthest places. Who wouldn’t want to?",
+			"imageURL" : "",
+			"skillsCategories": [
+				{
+					"categoryName": "Knowledge",
+					"skills": [
+						{
+							"skillName": "Modularity",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Accesibility",
+							"skillLevel": 3 
+						},
+						{
+							"skillName": "Mobile First",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "CSS Animations",
+							"skillLevel": 3
+						},
+						{
+							"skillName": "Crossbrowser",
+							"skillLevel": 4
+						}
+					]
+				},
+				{
+					"categoryName": "Tools",
+					"skills": [
+						{
+							"skillName": "HTML5",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "CSS3",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "SASS/LESS",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Gulp",
+							"skillLevel": 2
+						}
+					]
+				}
+			],
+			"readings": [
+				{
+					"readingName": "",
+					"readingURL": ""
+				}
+			]
+
+		},
+		{
+			"id": 9,
+			"name": "THE WRITER",
+			"thumbnailURL": "",
+			"text": "This ME loves the language and playing with it. He had a blog where he wrote some of the crazy stuff locked in his mind. Now, he is willing to set it free again...",
+			"imageURL" : "",
+			"skillsCategories": [
+				{
+					"categoryName": "Knowledge",
+					"skills": [
+						{
+							"skillName": "Modularity",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Accesibility",
+							"skillLevel": 3 
+						},
+						{
+							"skillName": "Mobile First",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "CSS Animations",
+							"skillLevel": 3
+						},
+						{
+							"skillName": "Crossbrowser",
+							"skillLevel": 4
+						}
+					]
+				},
+				{
+					"categoryName": "Tools",
+					"skills": [
+						{
+							"skillName": "HTML5",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "CSS3",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "SASS/LESS",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Gulp",
+							"skillLevel": 2
+						}
+					]
+				}
+			],
+			"readings": [
+				{
+					"readingName": "",
+					"readingURL": ""
+				}
+			]
+
+		},
+		{
+			"id": 10,
+			"name": "THE GAME DESIGNER",
+			"thumbnailURL": "",
+			"text": "This one is a real geek of board games. Like with everything he loves, he enjoys get involve and someday he will finish some of the games he has been working on.",
+			"imageURL" : "",
+			"skillsCategories": [
+				{
+					"categoryName": "Knowledge",
+					"skills": [
+						{
+							"skillName": "Modularity",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Accesibility",
+							"skillLevel": 3 
+						},
+						{
+							"skillName": "Mobile First",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "CSS Animations",
+							"skillLevel": 3
+						},
+						{
+							"skillName": "Crossbrowser",
+							"skillLevel": 4
+						}
+					]
+				},
+				{
+					"categoryName": "Tools",
+					"skills": [
+						{
+							"skillName": "HTML5",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "CSS3",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "SASS/LESS",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Gulp",
+							"skillLevel": 2
+						}
+					]
+				}
+			],
+			"readings": [
+				{
+					"readingName": "",
+					"readingURL": ""
+				}
+			]
+
+		},
+		{
+			"id": 11,
+			"name": "THE IDIOTIC MUSICIAN",
+			"thumbnailURL": "",
+			"text": "He sing badly. He doesn’t know what rhythm is. He doesn’t even have a guitar. But he loves music and he makes slightly tolerable lyrics. Doesn’t he deserve a chance?",
+			"imageURL" : "",
+			"skillsCategories": [
+				{
+					"categoryName": "Knowledge",
+					"skills": [
+						{
+							"skillName": "Modularity",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Accesibility",
+							"skillLevel": 3 
+						},
+						{
+							"skillName": "Mobile First",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "CSS Animations",
+							"skillLevel": 3
+						},
+						{
+							"skillName": "Crossbrowser",
+							"skillLevel": 4
+						}
+					]
+				},
+				{
+					"categoryName": "Tools",
+					"skills": [
+						{
+							"skillName": "HTML5",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "CSS3",
+							"skillLevel": 5
+						},
+						{
+							"skillName": "SASS/LESS",
+							"skillLevel": 4
+						},
+						{
+							"skillName": "Gulp",
+							"skillLevel": 2
+						}
+					]
+				}
+			],
+			"readings": [
+				{
+					"readingName": "",
+					"readingURL": ""
+				}
+			]
+
+		}
+	]
+}
