@@ -1,6 +1,6 @@
 var path = require ('path')
 var webpack = require ('webpack');
-var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports ={
 	entry: './app/index.js',
@@ -20,13 +20,11 @@ module.exports ={
 			},
 			{
 				test: /\.css$/,
-				loader: ExtractTextPlugin.extract(
-					'style-loader!css-loader'
-				)
+				loader: ExtractTextPlugin.extract('css-loader')
 			},
 			{
 				test: /\.jpg$/,
-				loader: "file-loader"
+				loader: 'file-loader'
 			}
 		]
 	},
@@ -34,7 +32,7 @@ module.exports ={
 		extensions: ['.js', '.json'] 
 	},
 	plugins: [
-		new ExtractTextPlugin("[name].css")
+		new ExtractTextPlugin('styles.min.css')
 	],
 	stats: {
 		colors: true
