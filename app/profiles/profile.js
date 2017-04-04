@@ -7,12 +7,8 @@ import ProfileNav from './profile-nav.js';
 
 class Profile extends React.Component {
 	render() {
-		return(
-			<div>
-				<p>Texto de Profile</p>
-				<Info/>
-			</div>
-		)
+		// return(
+		// )
 	}
 }
 

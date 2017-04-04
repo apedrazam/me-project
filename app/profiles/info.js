@@ -4,9 +4,8 @@ import Stars from './stars.js';
 
 class Info extends React.Component {
 	render() {
-		return(
-			<p>Texto de Info</p>
-		)
+		// return(
+		// )
 	}
 }
 

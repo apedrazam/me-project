@@ -7,10 +7,10 @@ import ActionButton from './buttons/action-button.js';
 import Footer from './vendor/footer.js';
 import Header from './vendor/header.js';
 import Modal from './modal/modal.js';
-import ProfilesBoard from './profiles/profiles-board.js';
+import ProfileSelector from './profiles/profile-selector.js';
 
 
 render(
-	<ProfilesBoard/>,
+	<ProfileSelector/>,
 	document.getElementById("app")
 );
