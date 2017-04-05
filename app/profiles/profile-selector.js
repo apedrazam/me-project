@@ -4,6 +4,7 @@ import Thumbnail from './thumbnail.js';
 import ProfileBoard from './profile-board.js';
 import ProfileData from './profiles.json';
 
+//ADD KEYBOARD NAVIGATION
 
 class ProfileList extends React.Component {
 	render() {
@@ -16,7 +17,7 @@ class ProfileList extends React.Component {
 			)
  		}.bind(this));
  		return (
- 			<div>
+ 			<div className="profile-buttons">
 				{profileItem}
 			</div>
  		)
@@ -27,24 +28,19 @@ class ProfileSelector extends React.Component{
 	constructor(props) {
 		super(props)
 		this.onClick = this.onClick.bind(this)
-		this.state = {ProfileData};
-		this.selectedProfile = ProfileData[0];
-		console.log(this.selectedProfile);
+		this.state = ProfileData[0];
 	}
 	onClick(e) {
-		this.selectedProfile = ProfileData[e.target.value];
-		console.log(this.selectedProfile);
-
+		this.setState(ProfileData[e.target.value]);
 	}
 	render() {
 		return (
-			<div>
+			<section className="profile-selection">
 				<ProfileList ProfileData={ProfileData} chooseProfile={this.onClick} />
-				<ProfileBoard />
-			</div>
+				<ProfileBoard selected={this.state} />
+			</section>
 		)
 	}
 }
-
 
 export default ProfileSelector;

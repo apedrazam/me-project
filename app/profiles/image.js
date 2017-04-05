@@ -2,8 +2,11 @@ import React from 'react';
 
 class Image extends React.Component {
 	render() {
-		// return(
-		// )
+		return(
+			<div className="profile-image">
+				<img src={this.props.imageURL} />
+			</div>
+		)
 	}
 }
 

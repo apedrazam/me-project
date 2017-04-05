@@ -1,27 +1,17 @@
 import React from 'react';
 
 import Profile from './profile.js';
+import ProfileNav from './profile-nav.js';
 import ProfileData from './profiles.json';
 
 
-class RepeatModule extends React.Component{
+class ProfileBoard extends React.Component{
 	render() {
  		return (
-				<div>
-					<h3>{this.props.name}</h3>
-					<p>{this.props.desc}</p>
-				</div>
+ 			<Profile data={this.props.selected} />
  		)
 	}
 
-}
-
-class ProfileBoard extends React.Component {
-	render() {
-		return(
-			<RepeatModule />
-		)
-	}
 }
 
 export default ProfileBoard;

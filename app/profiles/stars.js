@@ -2,8 +2,9 @@ import React from 'react';
 
 class Stars extends React.Component {
 	render() {
-		// return(
-		// )
+		return(
+			<span>{this.props.level}</span>
+		)
 	}
 }
 
