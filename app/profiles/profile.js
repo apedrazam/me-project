@@ -13,7 +13,9 @@ class Profile extends React.Component {
 				<div className="profile-information">
 					<h2>{this.props.data.name}</h2>
 					<div className="profile-description">{this.props.data.description}</div>
-					<ProfileSkills skills={this.props.data.skillsCategories} />
+					{this.props.data.skillsCategories.length > 0 &&
+						<ProfileSkills skills={this.props.data.skillsCategories} />
+					}
 				</div>
 			</div>
 		)

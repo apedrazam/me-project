@@ -1,11 +1,13 @@
 import React from 'react';
 
-class ActionButton extends React.Component {
+class Button extends React.Component {
 	render() {
-		// return(
-			
-		// )
+		return(
+			<button className={this.props.type} onClick={this.props.action}>
+				{this.props.value}
+			</button>
+		)
 	}
 }
 
-export default ActionButton;
+export default Button;

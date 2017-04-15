@@ -24,12 +24,15 @@ module.exports ={
 			},
 			{
 				test: /\.css$/,
-				loader: ExtractTextPlugin.extract('css-loader')
+				loader: ExtractTextPlugin.extract({
+					fallback: "style-loader",
+          			use: "css-loader"
+				})
 			}
 		]
 	},
 	plugins: [
-		new ExtractTextPlugin('styles.min.css')
+		new ExtractTextPlugin('styles.css')
 	],
 	stats: {
 		colors: true

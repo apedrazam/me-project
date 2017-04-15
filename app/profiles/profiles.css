@@ -31,4 +31,12 @@
 .skill{
 
 }
+.stars-container{
+	display: inline-block;
+}
+.stars-container,
+.stars-mask{
+	height:24px;
+	width:130px;
+}
 
