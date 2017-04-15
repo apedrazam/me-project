@@ -6,24 +6,22 @@ import Button from '../buttons/action-button.js';
 import FormInput from './form-input.js';
 
 class Modal extends React.Component {
-	closeModal() {
-		alert('Closing Modal! someday');
-	}
-
 	render() {
 		return(
-			<div className="modal-bg">
-				<div className="modal-container">
-					<div className ="modal-header">
-						<h2>{this.props.title}</h2>
-						<Button value="X" type="close-button" action={this.closeModal} />
-					</div>
-					<div className="modal-content">
-						{ this.props.formModal ? (
-							<FormInput />
-						) : (
-							<About />
-						)}
+			<div className={this.props.modalData.isModalOpen}>
+				<div className="modal-bg">
+					<div className="modal-container">
+						<div className ="modal-header">
+							<Button value="X" type="close-button" action={this.props.closeAction} />
+							<h2>{this.props.modalData.title}</h2>
+						</div>
+						<div className="modal-content">
+							{ this.props.modalData.formModal ? (
+								<FormInput />
+							) : (
+								<About />
+							)}
+						</div>
 					</div>
 				</div>
 			</div>

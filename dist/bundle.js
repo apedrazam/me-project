@@ -10410,7 +10410,8 @@ var Header = function (_React$Component) {
 
 		_this.aboutModal = _this.aboutModal.bind(_this);
 		_this.contactModal = _this.contactModal.bind(_this);
-		_this.state = {};
+		_this.closeModal = _this.closeModal.bind(_this);
+		_this.state = { isModalOpen: 'hidden-modal' };
 		return _this;
 	}
 
@@ -10418,19 +10419,24 @@ var Header = function (_React$Component) {
 		key: 'aboutModal',
 		value: function aboutModal(e) {
 			this.setState({
+				isModalOpen: 'show-modal',
 				formModal: false,
 				title: 'ABOUT'
 			});
-			console.log(this.state.formModal);
 		}
 	}, {
 		key: 'contactModal',
 		value: function contactModal(e) {
 			this.setState({
+				isModalOpen: 'show-modal',
 				formModal: true,
 				title: 'CONTACT'
 			});
-			console.log(this.state.formModal);
+		}
+	}, {
+		key: 'closeModal',
+		value: function closeModal(e) {
+			this.setState({ isModalOpen: 'modal-hidden' });
 		}
 	}, {
 		key: 'render',
@@ -10450,7 +10456,7 @@ var Header = function (_React$Component) {
 					_react2.default.createElement(_actionButton2.default, { value: 'Contact', category: 'action-btn', action: this.contactModal }),
 					_react2.default.createElement(_linkButton2.default, { value: 'Download CV', category: 'action-btn', link: './assets/AdrianPedrazaCV.pdf' })
 				),
-				_react2.default.createElement(_modal2.default, { title: this.state.title, formModal: this.state.formModal })
+				_react2.default.createElement(_modal2.default, { modalData: this.state, closeAction: this.closeModal })
 			);
 		}
 	}]);
@@ -10732,34 +10738,32 @@ var Modal = function (_React$Component) {
 	}
 
 	_createClass(Modal, [{
-		key: 'closeModal',
-		value: function closeModal() {
-			alert('Closing Modal! someday');
-		}
-	}, {
 		key: 'render',
 		value: function render() {
-			console.log(this.props.formModal);
 			return _react2.default.createElement(
 				'div',
-				{ className: 'modal-bg' },
+				{ className: this.props.modalData.isModalOpen },
 				_react2.default.createElement(
 					'div',
-					{ className: 'modal-container' },
+					{ className: 'modal-bg' },
 					_react2.default.createElement(
 						'div',
-						{ className: 'modal-header' },
+						{ className: 'modal-container' },
 						_react2.default.createElement(
-							'h2',
-							null,
-							this.props.title
+							'div',
+							{ className: 'modal-header' },
+							_react2.default.createElement(_actionButton2.default, { value: 'X', type: 'close-button', action: this.props.closeAction }),
+							_react2.default.createElement(
+								'h2',
+								null,
+								this.props.modalData.title
+							)
 						),
-						_react2.default.createElement(_actionButton2.default, { value: 'X', type: 'close-button', action: this.closeModal })
-					),
-					_react2.default.createElement(
-						'div',
-						{ className: 'modal-content' },
-						this.props.formModal ? _react2.default.createElement(_formInput2.default, null) : _react2.default.createElement(_about2.default, null)
+						_react2.default.createElement(
+							'div',
+							{ className: 'modal-content' },
+							this.props.modalData.formModal ? _react2.default.createElement(_formInput2.default, null) : _react2.default.createElement(_about2.default, null)
+						)
 					)
 				)
 			);

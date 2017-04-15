@@ -9,19 +9,25 @@ class Header extends React.Component {
 		super(props)
 		this.aboutModal = this.aboutModal.bind(this)
 		this.contactModal = this.contactModal.bind(this)
-		this.state = {};
+		this.closeModal = this.closeModal.bind(this)
+		this.state = { isModalOpen:'hidden-modal' };
 	}
 	aboutModal(e) {
 		this.setState({
+			isModalOpen:'show-modal',
 			formModal: false,
 			title: 'ABOUT'
 		});
 	}
 	contactModal(e) {
 		this.setState({
+			isModalOpen:'show-modal',
 			formModal: true,
 			title: 'CONTACT'
 		});
+	}
+	closeModal(e) {
+		this.setState({ isModalOpen:'modal-hidden' });
 	}
 	render() {
 		return(
@@ -32,7 +38,7 @@ class Header extends React.Component {
 					<ActionButton value="Contact" category="action-btn" action={this.contactModal} />
 					<LinkButton value="Download CV" category="action-btn" link="./assets/AdrianPedrazaCV.pdf" />
 				</div>
-				<Modal title={this.state.title} formModal={this.state.formModal} />
+				<Modal modalData={this.state} closeAction={this.closeModal} />
 			</header>
 
 		)
