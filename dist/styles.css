@@ -41,4 +41,58 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*# sourceMappingURL=styles.min.css.map*/
+.action-btn{
+
+}
+.media-btn{
+
+}
+.info-btn{
+	
+}
+.close-btn{
+
+}.profile-selection{
+
+}
+.profile-buttons{
+
+}
+.profile-container{
+
+}
+.profile-image{
+
+}
+.profile-information{
+
+}
+.profile-information h2{
+
+}
+.profile-description{
+
+}
+.profile-skills{
+	
+}
+.profile-skills li{
+
+}
+.profile-skill h3{
+
+}
+.skill{
+
+}
+.stars-container{
+	display: inline-block;
+}
+.stars-container,
+.stars-mask{
+	height:24px;
+	width:130px;
+}
+
+
+/*# sourceMappingURL=styles.css.map*/
