@@ -2,8 +2,10 @@ import React from 'react';
 
 class FormInput extends React.Component {
 	render() {
-		// return(
-		// )
+		return(
+
+			<p>Este es el texto de FormInput</p>
+		)
 	}
 }
 
