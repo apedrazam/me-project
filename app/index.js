@@ -12,7 +12,7 @@ import Header from './vendor/header.js';
 import ProfileSelector from './profiles/profile-selector.js';
 
 render(
-	<div>
+	<div className="main-container">
 		<Header title="CHOOSE YOUR PLAYER" />
 		<ProfileSelector/>
 	</div>,

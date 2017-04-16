@@ -5,6 +5,10 @@
 
 }
 .info-btn{
+	margin: 15px 20px;
+	position:absolute;
+	right: 0;
+	top: 0;
 	
 }
 .close-btn{

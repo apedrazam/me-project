@@ -10,7 +10,7 @@ class Header extends React.Component {
 		this.aboutModal = this.aboutModal.bind(this)
 		this.contactModal = this.contactModal.bind(this)
 		this.closeModal = this.closeModal.bind(this)
-		this.state = { isModalOpen:'hidden-modal' };
+		this.state = { isModalOpen:'hide-modal' };
 	}
 	aboutModal(e) {
 		this.setState({
@@ -18,6 +18,7 @@ class Header extends React.Component {
 			formModal: false,
 			title: 'ABOUT'
 		});
+		//addClass in "app" for avoid scroll
 	}
 	contactModal(e) {
 		this.setState({
@@ -25,13 +26,15 @@ class Header extends React.Component {
 			formModal: true,
 			title: 'CONTACT'
 		});
+		//addClass in "app" for avoid scroll
 	}
 	closeModal(e) {
-		this.setState({ isModalOpen:'modal-hidden' });
+		this.setState({ isModalOpen:'hide-modal' });
+		//removeClass in "app" for enable scroll
 	}
 	render() {
 		return(
-			<header>
+			<header className="header">
 				<h1>{this.props.title}</h1>
 				<ActionButton value="?" category="info-btn" action={this.aboutModal} />
 				<div className="main-actions">

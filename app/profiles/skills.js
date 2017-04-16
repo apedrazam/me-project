@@ -7,7 +7,9 @@ class SkillList extends React.Component {
 		var skillItem = this.props.skillData.map(function(skill) {
 			return(
 				<li className="skill" key={skill.skillName}>
-					{skill.skillName}
+					<div className="skillName">
+						{skill.skillName}
+					</div>
 					<Stars level={skill.skillLevel} />
 				</li>
 

@@ -41,8 +41,29 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.hidden{
-	display: none;
+#app{
+	display: flex;
+	align-items: center;
+}
+.main-container{
+	margin: 0 auto;
+	max-width: 1200px;
+	width:100%;
+}
+.header{
+	width: 100%;
+}
+.header h1 {
+	padding: 20px;
+	position: relative;
+	text-align: center;
+}
+.main-actions{
+	text-align: center;
+}
+.main-actions button,
+.main-actions a{
+	margin: 10px 30px;
 }
 .action-btn{
 
@@ -51,39 +72,68 @@ table {
 
 }
 .info-btn{
+	margin: 15px 20px;
+	position:absolute;
+	right: 0;
+	top: 0;
 	
 }
 .close-btn{
 
 }.profile-selection{
-
+	display: flex;
 }
 .profile-buttons{
-
+	flex-basis: 15%;
+	padding: 30px 40px;
 }
 .profile-container{
+	flex-basis: 85%;
+	padding: 10px;
+	position: relative;
+}
+.profile-navigation{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+.next-profile{
+	right: 25px;
+	position: absolute;
+}
+.prev-profile{
+	left: 5px;
+	position: absolute;
+}
+.profile{
+	padding: 30px 40px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.profile-name{
+	flex-basis: 100%;
+	text-align: center;
+}
+.profile-name h2{
+	padding: 10px 10px 20px
 
 }
-.profile-image{
-
-}
+.profile-image,
 .profile-information{
-
-}
-.profile-information h2{
-
+	flex-basis: 50%;
 }
 .profile-description{
 
 }
-.profile-skills{
-	
+.profile-skills > ul {
+	display: flex;
+	flex-wrap: wrap;
 }
-.profile-skills li{
-
+.profile-skills > ul > li{
+	flex-basis: 50%;
 }
-.profile-skill h3{
-
+.profile-skills h3{
+	margin: 20px 0 5px;
 }
 .skill{
 
@@ -93,9 +143,47 @@ table {
 }
 .stars-container,
 .stars-mask{
-	height:24px;
-	width:130px;
+	height:18px;
+	width:97px;
+}
+	
+@media (max-width: 768px),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi){
+	.profile-selection{
+		flex-wrap: wrap-reverse;
+	}
+	.profile-buttons,
+	.profile-container{
+		flex-basis: 100%;
+	}
+}.hide-modal{
+	display: none;
+}
+.show-modal{
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	z-index: 999;
 }
 
+.form-container{
 
+}
+#contact-form{
+
+}
+.form-input{
+
+}
+.submit-btn{
+
+}
+.alert-info{
+	
+}
+.alert-success{
+	
+}
+.alert-danger{
+
+}
 /*# sourceMappingURL=styles.css.map*/

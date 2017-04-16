@@ -3,7 +3,6 @@ import React from 'react';
 import Thumbnail from './thumbnail.js';
 import ProfileBoard from './profile-board.js';
 import ProfileData from './profiles.json';
-import ProfileNav from './profile-nav.js';
 
 //ADD KEYBOARD NAVIGATION
 
@@ -58,8 +57,7 @@ class ProfileSelector extends React.Component{
 		return (
 			<section className="profile-selection">
 				<ProfileList ProfileData={ProfileData} chooseProfile={this.onClick} />
-				<ProfileBoard selected={this.state} />
-				<ProfileNav nextProfile={this.next} previousProfile={this.previous} /> 
+				<ProfileBoard selected={this.state} nextProfile={this.next} previousProfile={this.previous} />
 			</section>
 		)
 	}

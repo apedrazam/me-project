@@ -41,6 +41,23 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.hidden{
-	display: none;
+.main-container{
+	margin: 0 auto;
+	max-width: 1200px;
+	width:100%;
+}
+.header{
+	width: 100%;
+}
+.header h1 {
+	padding: 20px;
+	position: relative;
+	text-align: center;
+}
+.main-actions{
+	text-align: center;
+}
+.main-actions button,
+.main-actions a{
+	margin: 10px 30px;
 }
