@@ -4,7 +4,7 @@
 		"name": "THE UI DEVELOPER",
 		"thumbnailURL": "",
 		"description": "This ME believes in a strong definition of concepts. He dreams with a modular world full of beautiful neat transitions, accessible to everyone and available in any screen resolution.",
-		"imageURL" : "",
+		"imageURL" : "./assets/profiles/ui-developer.svg",
 		"skillsCategories": [
 			{
 				"categoryName": "Knowledge",
@@ -62,7 +62,7 @@
 		"name": "THE UX/UI CONSULTANT",
 		"thumbnailURL": "",
 		"description": "This mate conceives the web as a way of narration. He stands for the creation of meaningful flows crowded with strong charismatic interfaces so our story can be tell the best way possible for our users.",
-		"imageURL" : "",
+		"imageURL" : "./assets/profiles/ux-ui.svg",
 		"skillsCategories": [
 			{
 				"categoryName": "Knowledge",
@@ -116,7 +116,7 @@
 		"name": "THE FRAMEWORKER",
 		"thumbnailURL": "",
 		"description": "Working in big companies, you usually have to rush in order to reach the team’s goal on time. A good framework can become your best friend for this kind of situations.",
-		"imageURL" : "",
+		"imageURL" : "./assets/profiles/frameworker.svg",
 		"skillsCategories": [
 			{
 				"categoryName": "JS Frameworks",
@@ -132,6 +132,23 @@
 					{
 						"skillName": "React",
 						"skillLevel": 2
+					}
+				]
+			},
+			{
+				"categoryName": "CMS",
+				"skills": [
+					{
+						"skillName": "Wordpress",
+						"skillLevel": 4
+					},
+					{
+						"skillName": "Liferay",
+						"skillLevel": 3
+					},
+					{
+						"skillName": "Grav",
+						"skillLevel": 3
 					}
 				]
 			},
@@ -160,23 +177,6 @@
 						"skillLevel": 4
 					}
 				]
-			},
-			{
-				"categoryName": "CMS",
-				"skills": [
-					{
-						"skillName": "Wordpress",
-						"skillLevel": 4
-					},
-					{
-						"skillName": "Liferay",
-						"skillLevel": 3
-					},
-					{
-						"skillName": "Grav",
-						"skillLevel": 3
-					}
-				]
 			}
 		],
 		"readings": [
@@ -192,7 +192,7 @@
 		"name": "THE VISUAL DESIGNER",
 		"thumbnailURL": "",
 		"description": "This ME was the first one in the professional world. He doesn’t have great drawing skills but tons of ideas. That’s why he felt in love with bézier curves, funny montages and identity briefs right in the moment he met them.",
-		"imageURL" : "",
+		"imageURL" : "./assets/profiles/visual-designer.svg",
 		"skillsCategories": [
 			{
 				"categoryName": "Knowledge",
@@ -250,7 +250,7 @@
 		"name": "THE HYPE FOCUSED",
 		"thumbnailURL": "",
 		"description": "This ME wants to impress you. He is curious and he is terrified of dying if he stops. That’s why this ME browses the web trying to know and learn what is going on.",
-		"imageURL" : "",
+		"imageURL" : "./assets/profiles/hype-focused.svg",
 		"skillsCategories": [
 			{
 				"categoryName": "Looking at",
@@ -300,7 +300,7 @@
 		"name": "THE CONTENT DEFENDER",
 		"thumbnailURL": "",
 		"description": "In IT is really common to start building design without any content at all. This mate thinks the best way to structure and build a design is working over the actual content and forgetting the Lorem Ipsum. He will always be pleased to work in this kind of project in order to provide better results.",
-		"imageURL" : "",
+		"imageURL" : "./assets/profiles/content-defender.svg",
 		"skillsCategories": [
 			{
 				"categoryName": "Knowledge",
@@ -312,6 +312,14 @@
 					{
 						"skillName": "Synthesize",
 						"skillLevel": 4
+					},
+					{
+						"skillName": "Wording (Spanish)",
+						"skillLevel": 4
+					},
+					{
+						"skillName": "Marketing",
+						"skillLevel": 1
 					}
 				]
 			},
@@ -328,6 +336,10 @@
 					},
 					{
 						"skillName": "Navigation flows",
+						"skillLevel": 3
+					},
+					{
+						"skillName": "Research",
 						"skillLevel": 3
 					}
 				]
@@ -346,7 +358,7 @@
 		"name": "THE TEAM PLAYER",
 		"thumbnailURL": "",
 		"description": "This ME is really social and he has realised that there is nothing better than working in a good project with a great team. Even if the project isn’t so cool, working with the correct people creates revenue and makes us better workers.",
-		"imageURL" : "",
+		"imageURL" : "./assets/profiles/team-player.svg",
 		"skillsCategories": [
 			{
 				"categoryName": "Knowledge",
@@ -396,30 +408,30 @@
 		"name": "THE WANDERLUSTER",
 		"thumbnailURL": "",
 		"description": "Travel, hike, learn, visit any lost corner of the world. We live in a world where we can go almost everywhere and met the furthest places. Who wouldn’t want to?",
-		"imageURL" : "",
+		"imageURL" : "./assets/profiles/wanderluster.svg",
 		"skillsCategories": [
 			{
 				"categoryName": "Knowledge",
 				"skills": [
 					{
-						"skillName": "Modularity",
+						"skillName": "Europe",
 						"skillLevel": 4
 					},
 					{
-						"skillName": "Accesibility",
-						"skillLevel": 3 
+						"skillName": "Asia",
+						"skillLevel": 1
 					},
 					{
-						"skillName": "Mobile First",
-						"skillLevel": 5
+						"skillName": "America",
+						"skillLevel": 2
 					},
 					{
-						"skillName": "CSS Animations",
-						"skillLevel": 3
+						"skillName": "Africa",
+						"skillLevel": 1
 					},
 					{
-						"skillName": "Crossbrowser",
-						"skillLevel": 4
+						"skillName": "Oceania",
+						"skillLevel": 1
 					}
 				]
 			},
@@ -427,19 +439,19 @@
 				"categoryName": "Tools",
 				"skills": [
 					{
-						"skillName": "HTML5",
-						"skillLevel": 5
-					},
-					{
-						"skillName": "CSS3",
-						"skillLevel": 5
-					},
-					{
-						"skillName": "SASS/LESS",
+						"skillName": "Nice Boots",
 						"skillLevel": 4
 					},
 					{
-						"skillName": "Gulp",
+						"skillName": "Light Backpack",
+						"skillLevel": 3
+					},
+					{
+						"skillName": "Patience",
+						"skillLevel": 5
+					},
+					{
+						"skillName": "Budget",
 						"skillLevel": 2
 					}
 				]
@@ -457,31 +469,27 @@
 		"id": 8,
 		"name": "THE WRITER",
 		"thumbnailURL": "",
-		"description": "This ME loves the language and playing with it. He had a blog where he wrote some of the crazy stuff locked in his mind. Now, he is willing to set it free again...",
-		"imageURL" : "",
+		"description": "This ME loves the language and playing with it. He had a blog where he wrote some of the crazy stuff locked in his mind. Now, he is willing to set it free again... Maybe.",
+		"imageURL" : "./assets/profiles/writer.svg",
 		"skillsCategories": [
 			{
 				"categoryName": "Knowledge",
 				"skills": [
 					{
-						"skillName": "Modularity",
-						"skillLevel": 4
-					},
-					{
-						"skillName": "Accesibility",
-						"skillLevel": 3 
-					},
-					{
-						"skillName": "Mobile First",
-						"skillLevel": 5
-					},
-					{
-						"skillName": "CSS Animations",
+						"skillName": "Reading Habit",
 						"skillLevel": 3
 					},
 					{
-						"skillName": "Crossbrowser",
+						"skillName": "Story Structure",
+						"skillLevel": 5
+					},
+					{
+						"skillName": "Good Grammar",
 						"skillLevel": 4
+					},
+					{
+						"skillName": "Sharp Humor",
+						"skillLevel": 3
 					}
 				]
 			},
@@ -489,20 +497,20 @@
 				"categoryName": "Tools",
 				"skills": [
 					{
-						"skillName": "HTML5",
-						"skillLevel": 5
-					},
-					{
-						"skillName": "CSS3",
-						"skillLevel": 5
-					},
-					{
-						"skillName": "SASS/LESS",
+						"skillName": "Pens and paper",
 						"skillLevel": 4
 					},
 					{
-						"skillName": "Gulp",
-						"skillLevel": 2
+						"skillName": "Weirdest Ideas",
+						"skillLevel": 5
+					},
+					{
+						"skillName": "Punishable Puns",
+						"skillLevel": 5
+					},
+					{
+						"skillName": "Writting Will",
+						"skillLevel": 1
 					}
 				]
 			}
@@ -520,30 +528,26 @@
 		"name": "THE GAME DESIGNER",
 		"thumbnailURL": "",
 		"description": "This one is a real geek of board games. Like with everything he loves, he enjoys get involve and someday he will finish some of the games he has been working on.",
-		"imageURL" : "",
+		"imageURL" : "./assets/profiles/game-designer.svg",
 		"skillsCategories": [
 			{
 				"categoryName": "Knowledge",
 				"skills": [
 					{
-						"skillName": "Modularity",
-						"skillLevel": 4
-					},
-					{
-						"skillName": "Accesibility",
-						"skillLevel": 3 
-					},
-					{
-						"skillName": "Mobile First",
+						"skillName": "Playing Background",
 						"skillLevel": 5
 					},
 					{
-						"skillName": "CSS Animations",
-						"skillLevel": 3
+						"skillName": "Game Mechanisms",
+						"skillLevel": 4
 					},
 					{
-						"skillName": "Crossbrowser",
-						"skillLevel": 4
+						"skillName": "Statistical Knowledge",
+						"skillLevel": 2 
+					},
+					{
+						"skillName": "Good Ideas",
+						"skillLevel": 3
 					}
 				]
 			},
@@ -551,19 +555,19 @@
 				"categoryName": "Tools",
 				"skills": [
 					{
-						"skillName": "HTML5",
-						"skillLevel": 5
-					},
-					{
-						"skillName": "CSS3",
-						"skillLevel": 5
-					},
-					{
-						"skillName": "SASS/LESS",
+						"skillName": "Pens and paper",
 						"skillLevel": 4
 					},
 					{
-						"skillName": "Gulp",
+						"skillName": "Wooden cubes",
+						"skillLevel": 5
+					},
+					{
+						"skillName": "Mock Ups",
+						"skillLevel": 2
+					},
+					{
+						"skillName": "Time",
 						"skillLevel": 2
 					}
 				]
@@ -582,29 +586,25 @@
 		"name": "THE IDIOTIC MUSICIAN",
 		"thumbnailURL": "",
 		"description": "He sing badly. He doesn’t know what rhythm is. He doesn’t even have a guitar. But he loves music and he makes slightly tolerable lyrics. Doesn’t he deserve a chance?",
-		"imageURL" : "",
+		"imageURL" : "./assets/profiles/idiotic-musician.svg",
 		"skillsCategories": [
 			{
 				"categoryName": "Knowledge",
 				"skills": [
 					{
-						"skillName": "Modularity",
-						"skillLevel": 4
-					},
-					{
-						"skillName": "Accesibility",
-						"skillLevel": 3 
-					},
-					{
-						"skillName": "Mobile First",
-						"skillLevel": 5
-					},
-					{
-						"skillName": "CSS Animations",
+						"skillName": "Music Education",
 						"skillLevel": 3
 					},
 					{
-						"skillName": "Crossbrowser",
+						"skillName": "Rhythm",
+						"skillLevel": 1
+					},
+					{
+						"skillName": "Harmony",
+						"skillLevel": 2
+					},
+					{
+						"skillName": "Catchy Lyrics",
 						"skillLevel": 4
 					}
 				]
@@ -613,20 +613,20 @@
 				"categoryName": "Tools",
 				"skills": [
 					{
-						"skillName": "HTML5",
+						"skillName": "Passion for musicals",
 						"skillLevel": 5
 					},
 					{
-						"skillName": "CSS3",
-						"skillLevel": 5
+						"skillName": "Guitar",
+						"skillLevel": 1
 					},
 					{
-						"skillName": "SASS/LESS",
-						"skillLevel": 4
-					},
-					{
-						"skillName": "Gulp",
+						"skillName": "Voice",
 						"skillLevel": 2
+					},
+					{
+						"skillName": "Beer",
+						"skillLevel": 4
 					}
 				]
 			}

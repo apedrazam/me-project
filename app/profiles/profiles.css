@@ -12,7 +12,7 @@
 }
 .profile-navigation{
 	position: absolute;
-	top: 50%;
+	top: 34vh;
 	width: 100%;
 }
 .next-profile{
@@ -39,6 +39,13 @@
 .profile-image,
 .profile-information{
 	flex-basis: 50%;
+}
+.profile-image{
+	text-align: center;
+}
+.profile-image img{
+	max-height: 60vh;
+	max-width: 40vw;
 }
 .profile-description{
 
@@ -72,5 +79,25 @@
 	.profile-buttons,
 	.profile-container{
 		flex-basis: 100%;
+	}
+	.profile{
+		padding: 15px 20px;
+	}
+}
+	
+@media (max-width: 480px){
+	.profile{
+		padding: 10px;
+	}
+	.profile-image,
+	.profile-information{
+		flex-basis: 100%;
+	}
+	.profile-image img{
+		max-height: 60vh;
+		max-width: 85vw;
+	}
+	.profile-navigation{
+		position: fixed;
 	}
 }

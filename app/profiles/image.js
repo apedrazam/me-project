@@ -4,7 +4,7 @@ class Image extends React.Component {
 	render() {
 		return(
 			<div className="profile-image">
-				<img src={this.props.imageURL} />
+				<img src={this.props.imagePath} alt={this.props.imageAlt} />
 			</div>
 		)
 	}

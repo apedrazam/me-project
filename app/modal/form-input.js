@@ -3,6 +3,7 @@ import React from 'react';
 class FormInput extends React.Component {
 	constructor(props) {
 		super(props);
+		this.handleSubmit = this.handleSubmit.bind(this)
 		this.state = {
 			type: 'info',
 			message: ''
