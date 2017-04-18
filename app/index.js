@@ -1,12 +1,13 @@
+require('./fonts.css');
 require('./main.css');
 require('./buttons/buttons.css');
 require('./profiles/profiles.css');
 require('./modal/modal.css');
-//require('./assets/stars.svg');
+require('./media-queries.css');
 
-
+//Require from all /assets files
 function requireAll(r) { r.keys().forEach(r); }
-requireAll(require.context('../assets/', true, /\.svg$/));
+requireAll(require.context('../assets/', true, /\.*$/));
 
 
 import React from 'react';
@@ -18,7 +19,7 @@ import ProfileSelector from './profiles/profile-selector.js';
 
 render(
 	<div className="main-container">
-		<Header title="CHOOSE YOUR PLAYER" />
+		<Header title="CHOOSE YOUR ME" />
 		<ProfileSelector/>
 	</div>,
 	document.getElementById("app")

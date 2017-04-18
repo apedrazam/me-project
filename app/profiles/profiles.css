@@ -12,7 +12,7 @@
 }
 .profile-navigation{
 	position: absolute;
-	top: 34vh;
+	top: 40vh;
 	width: 100%;
 }
 .next-profile{
@@ -24,7 +24,7 @@
 	position: absolute;
 }
 .profile{
-	padding: 30px 40px;
+	padding: 10px 7% 10px 0;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -38,17 +38,18 @@
 }
 .profile-image,
 .profile-information{
-	flex-basis: 50%;
+	flex-basis: 42%;
+	padding: 5px 3.5% 0;
 }
 .profile-image{
 	text-align: center;
 }
 .profile-image img{
-	max-height: 60vh;
-	max-width: 40vw;
+	max-height: 53vh;
+	max-width: 100%;
 }
 .profile-description{
-
+	font-size: 1.2em;
 }
 .profile-skills > ul {
 	display: flex;
@@ -58,7 +59,8 @@
 	flex-basis: 50%;
 }
 .profile-skills h3{
-	margin: 20px 0 5px;
+	margin: 15px 0 10px;
+	text-decoration: underline;
 }
 .skill{
 
@@ -68,36 +70,6 @@
 }
 .stars-container,
 .stars-mask{
-	height:18px;
-	width:97px;
-}
-	
-@media (max-width: 768px),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi){
-	.profile-selection{
-		flex-wrap: wrap-reverse;
-	}
-	.profile-buttons,
-	.profile-container{
-		flex-basis: 100%;
-	}
-	.profile{
-		padding: 15px 20px;
-	}
-}
-	
-@media (max-width: 480px){
-	.profile{
-		padding: 10px;
-	}
-	.profile-image,
-	.profile-information{
-		flex-basis: 100%;
-	}
-	.profile-image img{
-		max-height: 60vh;
-		max-width: 85vw;
-	}
-	.profile-navigation{
-		position: fixed;
-	}
+	height:21px;
+	width:99px;
 }

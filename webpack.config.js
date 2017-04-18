@@ -22,6 +22,7 @@ module.exports ={
 				test: /\.json$/,
 				loader: 'json-loader'
 			},
+
 			{
 				test: /\.css$/,
 				loader: ExtractTextPlugin.extract({
@@ -30,13 +31,13 @@ module.exports ={
 				})
 			},
 			{
-				test: /\.(jpe?g|png|gif|svg|pdf)$/i,
+				test: /\.(jpe?g|png|gif|eot|svg|ttf|woff|woff2|pdf)$/i,
 				loaders: [
 					'file-loader?name=[path][name].[ext]'
 					//'file-loader?hash=sha512&digest=hex&name=[path]/[hash].[ext]',
 					//'image-webpack-loader?bypassOnDebug&optimizationLevel=7&interlaced=false'
 				]
-  }
+  			}
 		]
 	},
 	plugins: [

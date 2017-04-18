@@ -12,7 +12,7 @@ class Stars extends React.Component {
 		}
 		return(
 			<div className="stars-container" style={starsStyle}>
-				<img src="./assets/stars.svg" className="stars-mask" alt={this.props.level} />
+				<img src="./assets/images/stars.svg" className="stars-mask" alt={this.props.level} />
 			</div>
 			//<span>{this.props.level}</span>
 		)

@@ -11,11 +11,13 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+	border: 0;
+	color: #1d1d1d;
+	font: inherit;
+	font-family: 'hind-light', 'Roboto', Arial, sans-serif;
+	font-size: 100%;
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -41,6 +43,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+h1{
+	font-family: 'yanone_kaffeesatz-bold';
+	font-size: calc(7.5vmax + 20%);
+}
+h2{
+	font-family: 'yanone_kaffeesatz-regular';
+	font-size: calc(4vmax + 30%);
+}
+h3 {
+	font-family: 'yanone_kaffeesatz-light';
+	font-size: 2.1vmax;
+}
+#app{
+	background-color: #F0F0FF;
+	min-height: 100vh
+}
 .main-container{
 	margin: 0 auto;
 	max-width: 1200px;
@@ -50,6 +68,7 @@ table {
 	width: 100%;
 }
 .header h1 {
+	color: #4b83aa;
 	padding: 20px;
 	position: relative;
 	text-align: center;
@@ -61,3 +80,4 @@ table {
 .main-actions a{
 	margin: 10px 30px;
 }
+

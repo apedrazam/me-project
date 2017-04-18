@@ -1,3 +1,105 @@
+/* Hind Webkit Font-Face */
+@font-face {
+    font-family: 'hind-bold';
+    src: url(assets/fonts/hind/hind-bold-webfont.eot);
+    src: url(assets/fonts/hind/hind-bold-webfont.eot?#iefix) format('embedded-opentype'),
+         url(assets/fonts/hind/hind-bold-webfont.woff2) format('woff2'),
+         url(assets/fonts/hind/hind-bold-webfont.woff) format('woff'),
+         url(assets/fonts/hind/hind-bold-webfont.ttf) format('truetype'),
+         url(assets/fonts/hind/hind-bold-webfont.svg#hind-bold) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+font-face {
+    font-family: 'hind-light';
+    src: url(assets/fonts/hind/hind-light-webfont.eot);
+    src: url(assets/fonts/hind/hind-light-webfont.eot?#iefix) format('embedded-opentype'),
+         url(assets/fonts/hind/hind-light-webfont.woff2) format('woff2'),
+         url(assets/fonts/hind/hind-light-webfont.woff) format('woff'),
+         url(assets/fonts/hind/hind-light-webfont.ttf) format('truetype'),
+         url(assets/fonts/hind/hind-light-webfont.svg#hind-light) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hind-medium';
+    src: url(assets/fonts/hind/hind-medium-webfont.eot);
+    src: url(assets/fonts/hind/hind-medium-webfont.eot?#iefix) format('embedded-opentype'),
+         url(assets/fonts/hind/hind-medium-webfont.woff2) format('woff2'),
+         url(assets/fonts/hind/hind-medium-webfont.woff) format('woff'),
+         url(assets/fonts/hind/hind-medium-webfont.ttf) format('truetype'),
+         url(assets/fonts/hind/hind-medium-webfont.svg#hind-medium) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hind-regular';
+    src: url(assets/fonts/hind/hind-regular-webfont.eot);
+    src: url(assets/fonts/hind/hind-regular-webfont.eot?#iefix) format('embedded-opentype'),
+         url(assets/fonts/hind/hind-regular-webfont.woff2) format('woff2'),
+         url(assets/fonts/hind/hind-regular-webfont.woff) format('woff'),
+         url(assets/fonts/hind/hind-regular-webfont.ttf) format('truetype'),
+         url(assets/fonts/hind/hind-regular-webfont.svg#hind-regular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hind-semibold';
+    src: url(assets/fonts/hind/hind-semibold-webfont.eot);
+    src: url(assets/fonts/hind/hind-semibold-webfont.eot?#iefix) format('embedded-opentype'),
+         url(assets/fonts/hind/hind-semibold-webfont.woff2) format('woff2'),
+         url(assets/fonts/hind/hind-semibold-webfont.woff) format('woff'),
+         url(assets/fonts/hind/hind-semibold-webfont.ttf) format('truetype'),
+         url(assets/fonts/hind/hind-semibold-webfont.svg#hind-semibold) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Yanone-Kaffeesatz Webkit Font-Face */
+@font-face {
+    font-family: 'yanone_kaffeesatz-bold';
+    src: url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-bold-webfont.eot);
+    src: url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-bold-webfont.eot?#iefix) format('embedded-opentype'),
+         url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-bold-webfont.woff2) format('woff2'),
+         url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-bold-webfont.woff) format('woff'),
+         url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-bold-webfont.ttf) format('truetype'),
+         url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-bold-webfont.svg#yanone_kaffeesatz-bold) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'yanone_kaffeesatz-extralight';
+    src: url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-extralight-webfont.eot);
+    src: url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-extralight-webfont.eot?#iefix) format('embedded-opentype'),
+         url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-extralight-webfont.woff2) format('woff2'),
+         url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-extralight-webfont.woff) format('woff'),
+         url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-extralight-webfont.ttf) format('truetype'),
+         url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-extralight-webfont.svg#yanone_kaffeesatz-extralight) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'yanone_kaffeesatz-light';
+    src: url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-light-webfont.eot);
+    src: url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-light-webfont.eot?#iefix) format('embedded-opentype'),
+         url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-light-webfont.woff2) format('woff2'),
+         url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-light-webfont.woff) format('woff'),
+         url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-light-webfont.ttf) format('truetype'),
+         url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-light-webfont.svg#yanone_kaffeesatz-light) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'yanone_kaffeesatz-regular';
+    src: url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-regular-webfont.eot);
+    src: url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-regular-webfont.eot?#iefix) format('embedded-opentype'),
+         url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-regular-webfont.woff2) format('woff2'),
+         url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-regular-webfont.woff) format('woff'),
+         url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-regular-webfont.ttf) format('truetype'),
+         url(assets/fonts/yanone-kaffeesatz/yanonekaffeesatz-regular-webfont.svg#yanone_kaffeesatz-regular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -11,11 +113,13 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+	border: 0;
+	color: #1d1d1d;
+	font: inherit;
+	font-family: 'hind-light', 'Roboto', Arial, sans-serif;
+	font-size: 100%;
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -41,6 +145,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+h1{
+	font-family: 'yanone_kaffeesatz-bold';
+	font-size: calc(7.5vmax + 20%);
+}
+h2{
+	font-family: 'yanone_kaffeesatz-regular';
+	font-size: calc(4vmax + 30%);
+}
+h3 {
+	font-family: 'yanone_kaffeesatz-light';
+	font-size: 2.1vmax;
+}
+#app{
+	background-color: #F0F0FF;
+	min-height: 100vh
+}
 .main-container{
 	margin: 0 auto;
 	max-width: 1200px;
@@ -50,6 +170,7 @@ table {
 	width: 100%;
 }
 .header h1 {
+	color: #4b83aa;
 	padding: 20px;
 	position: relative;
 	text-align: center;
@@ -61,6 +182,7 @@ table {
 .main-actions a{
 	margin: 10px 30px;
 }
+
 .action-btn{
 
 }
@@ -69,7 +191,7 @@ table {
 }
 .info-btn{
 	margin: 15px 20px;
-	position:absolute;
+	position:fixed;
 	right: 0;
 	top: 0;
 	
@@ -90,7 +212,7 @@ table {
 }
 .profile-navigation{
 	position: absolute;
-	top: 34vh;
+	top: 40vh;
 	width: 100%;
 }
 .next-profile{
@@ -102,7 +224,7 @@ table {
 	position: absolute;
 }
 .profile{
-	padding: 30px 40px;
+	padding: 10px 7% 10px 0;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -116,17 +238,18 @@ table {
 }
 .profile-image,
 .profile-information{
-	flex-basis: 50%;
+	flex-basis: 42%;
+	padding: 5px 3.5% 0;
 }
 .profile-image{
 	text-align: center;
 }
 .profile-image img{
-	max-height: 60vh;
-	max-width: 40vw;
+	max-height: 53vh;
+	max-width: 100%;
 }
 .profile-description{
-
+	font-size: 1.2em;
 }
 .profile-skills > ul {
 	display: flex;
@@ -136,7 +259,8 @@ table {
 	flex-basis: 50%;
 }
 .profile-skills h3{
-	margin: 20px 0 5px;
+	margin: 15px 0 10px;
+	text-decoration: underline;
 }
 .skill{
 
@@ -146,38 +270,8 @@ table {
 }
 .stars-container,
 .stars-mask{
-	height:18px;
-	width:97px;
-}
-	
-@media (max-width: 768px),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi){
-	.profile-selection{
-		flex-wrap: wrap-reverse;
-	}
-	.profile-buttons,
-	.profile-container{
-		flex-basis: 100%;
-	}
-	.profile{
-		padding: 15px 20px;
-	}
-}
-	
-@media (max-width: 480px){
-	.profile{
-		padding: 10px;
-	}
-	.profile-image,
-	.profile-information{
-		flex-basis: 100%;
-	}
-	.profile-image img{
-		max-height: 60vh;
-		max-width: 85vw;
-	}
-	.profile-navigation{
-		position: fixed;
-	}
+	height:21px;
+	width:99px;
 }.hide-modal{
 	display: none;
 }
@@ -208,5 +302,66 @@ table {
 }
 .alert-danger{
 
+}@media (max-width: 768px),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi){
+	.profile-selection{
+		flex-wrap: wrap-reverse;
+	}
+	.profile-buttons,
+	.profile-container{
+		flex-basis: 100%;
+	}
+	.profile{
+		padding: 15px 20px;
+	}
+
+	.profile-image img{
+		max-height: 50vh;
+	}
+	.profile-description{
+		font-size: 1.1em;
+	}
+	.skill-name{
+		font-size: .9em;
+	}
+}
+	
+@media (max-width: 480px){
+	h3 {
+		font-size: 3vmax;
+	}
+	.profile{
+		padding: 15px;
+	}
+	.profile-image,
+	.profile-information{
+		flex-basis: 100%;
+	}
+	.profile-image img{
+		max-height: 100%;
+	}
+	.profile-navigation{
+		position: fixed;
+		top: 50vh;
+	}
+	.next-profile{
+		right: 15px;
+	}
+	.prev-profile{
+		left: -5px;
+	}
+}
+
+/* high resolution smartphones in landscape */
+@media screen and (max-width:640px) and (orientation: landscape) {
+	h3 {
+		font-size: 3vmax;
+	}
+	.profile-image img{
+		max-height: 100%;
+	}
+	.profile-navigation{
+		position: fixed;
+		top: 50vh;
+	}
 }
 /*# sourceMappingURL=styles.css.map*/

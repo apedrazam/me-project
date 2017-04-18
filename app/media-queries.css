@@ -1,0 +1,62 @@
+@media (max-width: 768px),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi){
+	.profile-selection{
+		flex-wrap: wrap-reverse;
+	}
+	.profile-buttons,
+	.profile-container{
+		flex-basis: 100%;
+	}
+	.profile{
+		padding: 15px 20px;
+	}
+
+	.profile-image img{
+		max-height: 50vh;
+	}
+	.profile-description{
+		font-size: 1.1em;
+	}
+	.skill-name{
+		font-size: .9em;
+	}
+}
+	
+@media (max-width: 480px){
+	h3 {
+		font-size: 3vmax;
+	}
+	.profile{
+		padding: 15px;
+	}
+	.profile-image,
+	.profile-information{
+		flex-basis: 100%;
+	}
+	.profile-image img{
+		max-height: 100%;
+	}
+	.profile-navigation{
+		position: fixed;
+		top: 50vh;
+	}
+	.next-profile{
+		right: 15px;
+	}
+	.prev-profile{
+		left: -5px;
+	}
+}
+
+/* high resolution smartphones in landscape */
+@media screen and (max-width:640px) and (orientation: landscape) {
+	h3 {
+		font-size: 3vmax;
+	}
+	.profile-image img{
+		max-height: 100%;
+	}
+	.profile-navigation{
+		position: fixed;
+		top: 50vh;
+	}
+}
