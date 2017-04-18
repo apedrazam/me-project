@@ -49,15 +49,21 @@ h1{
 }
 h2{
 	font-family: 'yanone_kaffeesatz-regular';
-	font-size: calc(4vmax + 30%);
+	font-size: 3.5vmax;
 }
 h3 {
 	font-family: 'yanone_kaffeesatz-light';
 	font-size: 2.1vmax;
 }
+button:focus{
+	outline: 0;
+}
 #app{
 	background-color: #F0F0FF;
 	min-height: 100vh
+}
+.modal-is-open{
+	overflow: hidden;
 }
 .main-container{
 	margin: 0 auto;
@@ -65,6 +71,7 @@ h3 {
 	width:100%;
 }
 .header{
+	margin-bottom: 30px;
 	width: 100%;
 }
 .header h1 {
@@ -72,12 +79,5 @@ h3 {
 	padding: 20px;
 	position: relative;
 	text-align: center;
-}
-.main-actions{
-	text-align: center;
-}
-.main-actions button,
-.main-actions a{
-	margin: 10px 30px;
 }
 

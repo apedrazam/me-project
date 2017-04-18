@@ -115,7 +115,7 @@
 		"id": 2,
 		"name": "THE FRAMEWORKER",
 		"thumbnailURL": "",
-		"description": "Working in big companies, you usually have to rush in order to reach the team’s goal on time. A good framework can become your best friend for this kind of situations.",
+		"description": "This mate is all about get the job done and he knows that a good framework can be your best friend in your fast way to success.",
 		"imageURL" : "./assets/images/profiles/frameworker.svg",
 		"skillsCategories": [
 			{
@@ -153,7 +153,7 @@
 				]
 			},
 			{
-				"categoryName": "Visual Frameworks",
+				"categoryName": "UI Frameworks",
 				"skills": [
 					{
 						"skillName": "Bootstrap 3",

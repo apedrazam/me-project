@@ -18,7 +18,7 @@ class Header extends React.Component {
 			formModal: false,
 			title: 'ABOUT'
 		});
-		//addClass in "app" for avoid scroll
+		document.getElementById("app").classList.add("modal-is-open");
 	}
 	contactModal(e) {
 		this.setState({
@@ -26,20 +26,20 @@ class Header extends React.Component {
 			formModal: true,
 			title: 'CONTACT'
 		});
-		//addClass in "app" for avoid scroll
+		document.getElementById("app").classList.add("modal-is-open");
 	}
 	closeModal(e) {
 		this.setState({ isModalOpen:'hide-modal' });
-		//removeClass in "app" for enable scroll
+		document.getElementById("app").classList.remove("modal-is-open");
 	}
 	render() {
 		return(
 			<header className="header">
 				<h1>{this.props.title}</h1>
-				<ActionButton value="?" category="info-btn" action={this.aboutModal} />
 				<div className="main-actions">
 					<ActionButton value="Contact" category="action-btn" action={this.contactModal} />
 					<LinkButton value="Download CV" category="action-btn" link="./assets/AdrianPedrazaCV.pdf" />
+					<ActionButton value="About" category="action-btn" action={this.aboutModal} />
 				</div>
 				<Modal modalData={this.state} closeAction={this.closeModal} />
 			</header>

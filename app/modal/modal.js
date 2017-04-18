@@ -9,18 +9,22 @@ class Modal extends React.Component {
 	render() {
 		return(
 			<div className={this.props.modalData.isModalOpen}>
-				<div className="modal-bg">
-					<div className="modal-container">
-						<div className ="modal-header">
-							<Button value="X" type="close-button" action={this.props.closeAction} />
-							<h2>{this.props.modalData.title}</h2>
-						</div>
-						<div className="modal-content">
-							{ this.props.modalData.formModal ? (
-								<FormInput />
-							) : (
-								<About />
-							)}
+				<div className="modal-wrapper">
+					<div className="modal-box">
+						<div className="modal-container">
+							<div className ="modal-header">
+								<Button value="X" category="close-btn" action={this.props.closeAction} />
+								<h2>{this.props.modalData.title}</h2>
+							</div>
+							<div className="modal-content">
+								{ this.props.modalData.formModal ? (
+									<FormInput />
+								) : (
+									<About />
+								)}
+							</div>
+							<div className="modal-footer">
+							</div>
 						</div>
 					</div>
 				</div>

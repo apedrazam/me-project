@@ -3,17 +3,27 @@
 }
 .profile-buttons{
 	flex-basis: 15%;
-	padding: 30px 40px;
+	padding: 10px 40px 30px;
 }
 .profile-container{
 	flex-basis: 85%;
-	padding: 10px;
+	padding: 0 10px;
 	position: relative;
 }
 .profile-navigation{
 	position: absolute;
-	top: 40vh;
+	top: 25vh;
 	width: 100%;
+}
+.next-profile,
+.prev-profile{
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+.next-profile img,
+.prev-profile img{
+	height: 15vh
 }
 .next-profile{
 	right: 25px;
@@ -33,23 +43,28 @@
 	text-align: center;
 }
 .profile-name h2{
-	padding: 10px 10px 20px
+	padding: 10px 0;
 
 }
-.profile-image,
-.profile-information{
+.profile-image{
 	flex-basis: 42%;
-	padding: 5px 3.5% 0;
+	padding: 18px 3.5% 0;
+}
+.profile-information{
+	flex-basis: 50%;
 }
 .profile-image{
 	text-align: center;
 }
 .profile-image img{
-	max-height: 53vh;
+	max-height: 55vh;
 	max-width: 100%;
 }
 .profile-description{
 	font-size: 1.2em;
+}
+.profile-skills{
+	padding: 5px 3.5% 0;
 }
 .profile-skills > ul {
 	display: flex;

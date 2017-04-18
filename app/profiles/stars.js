@@ -5,10 +5,10 @@ class Stars extends React.Component {
 		var starsLevel = this.props.level*20;
 		var starsLevelEmpty = starsLevel+1;
 		var starsStyle = {
-			background: '-webkit-linear-gradient(90deg, red, red ' + starsLevel + '%, #d8d8d8 ' + starsLevelEmpty + '%, #d8d8d8 100%)',
-			background: '-o-linear-gradient(90deg, red, red ' + starsLevel + '%, #d8d8d8 ' + starsLevelEmpty + '%, #d8d8d8 100%)',
-			background: '-moz-linear-gradient(90deg, red, red ' + starsLevel + '%, #d8d8d8 ' + starsLevelEmpty + '%, #d8d8d8 100%)',
-			background: 'linear-gradient(90deg, red, red ' + starsLevel + '%, #d8d8d8 ' + starsLevelEmpty + '%, #d8d8d8 100%)'
+			background: '-webkit-linear-gradient(90deg, red, red ' + starsLevel + '%, #828282 ' + starsLevelEmpty + '%, #828282 100%)',
+			background: '-o-linear-gradient(90deg, red, red ' + starsLevel + '%, #828282 ' + starsLevelEmpty + '%, #828282 100%)',
+			background: '-moz-linear-gradient(90deg, red, red ' + starsLevel + '%, #828282 ' + starsLevelEmpty + '%, #828282 100%)',
+			background: 'linear-gradient(90deg, red, red ' + starsLevel + '%, #828282 ' + starsLevelEmpty + '%, #828282 100%)'
 		}
 		return(
 			<div className="stars-container" style={starsStyle}>

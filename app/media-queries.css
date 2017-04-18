@@ -1,4 +1,10 @@
 @media (max-width: 768px),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi){
+	.header {
+	    margin-bottom: 15px;
+	}
+	.modal-box{
+	    top: 10vh;
+	}
 	.profile-selection{
 		flex-wrap: wrap-reverse;
 	}
@@ -8,10 +14,6 @@
 	}
 	.profile{
 		padding: 15px 20px;
-	}
-
-	.profile-image img{
-		max-height: 50vh;
 	}
 	.profile-description{
 		font-size: 1.1em;
@@ -33,7 +35,9 @@
 		flex-basis: 100%;
 	}
 	.profile-image img{
-		max-height: 100%;
+		max-height: 60vh;
+		max-width: auto;
+		margin-bottom: 20px
 	}
 	.profile-navigation{
 		position: fixed;
@@ -45,15 +49,23 @@
 	.prev-profile{
 		left: -5px;
 	}
+	.action-btn{
+		margin: 7px 3%;
+		width: 60%;
+	}
 }
 
 /* high resolution smartphones in landscape */
-@media screen and (max-width:640px) and (orientation: landscape) {
+@media screen and (max-width:667px) and (orientation: landscape) {
 	h3 {
 		font-size: 3vmax;
 	}
+	.modal-box{
+	    top: 5vh;
+	}
 	.profile-image img{
 		max-height: 100%;
+		margin-bottom: 20px;
 	}
 	.profile-navigation{
 		position: fixed;
