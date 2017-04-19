@@ -12,11 +12,17 @@
 	.profile-container{
 		flex-basis: 100%;
 	}
+	.profile-buttons{
+		padding: 20px 34px 30px;
+	}
+	.profile-button img {
+		width: 8vw;
+	}
 	.profile{
 		padding: 15px 20px;
 	}
 	.profile-description{
-		font-size: 1.1em;
+		font-size: 1em;
 	}
 	.skill-name{
 		font-size: .9em;
@@ -34,20 +40,29 @@
 	.profile-information{
 		flex-basis: 100%;
 	}
+	.profile-information{
+		padding: 0 5px;
+	}
 	.profile-image img{
+		margin-bottom: 20px;
 		max-height: 60vh;
 		max-width: auto;
-		margin-bottom: 20px
+	}
+	.profile-name{
+		font-size: 5vmax;
+	}
+	.profile-description{
+		padding-left: 5px;
 	}
 	.profile-navigation{
 		position: fixed;
 		top: 50vh;
 	}
 	.next-profile{
-		right: 15px;
+		right: 10px;
 	}
 	.prev-profile{
-		left: -5px;
+		left: -10px;
 	}
 	.action-btn{
 		margin: 7px 3%;

@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Thumbnail from './thumbnail.js';
 import ProfileBoard from './profile-board.js';
 import ProfileData from './profiles.json';
 

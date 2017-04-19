@@ -26,25 +26,6 @@ a.action-btn{
 .media-btn{
 
 }
-.info-btn{
-	background-color: #4b83aa;
-	border-radius: 50%;
-	cursor: pointer;
-	margin: 15px 20px;
-	position:fixed;
-	right: 0;
-	top: 0;
-	
-}
-.info-btn button{
-	background-color: transparent;
-	border: none;
-	color: #fbfbff;
-	font-family: 'yanone_kaffeesatz-regular';
-	font-size: 3vmax;
-	line-height: normal;
-	padding: 0;
-}
 .close-btn{
     background: transparent;
     border: none;

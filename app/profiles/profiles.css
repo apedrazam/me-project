@@ -3,7 +3,20 @@
 }
 .profile-buttons{
 	flex-basis: 15%;
-	padding: 10px 40px 30px;
+	min-width: 140px;
+	padding: 1% 40px 30px 4%;
+	text-align: center;
+}
+.profile-button{
+	background-color: transparent;
+	border:none;
+	padding: 0;
+	cursor: pointer;
+}
+.profile-button img{
+	max-width: 70px;
+	width: 6vw;
+	height: 6vw;
 }
 .profile-container{
 	flex-basis: 85%;
@@ -61,7 +74,8 @@
 	max-width: 100%;
 }
 .profile-description{
-	font-size: 1.2em;
+	font-size: 1.1em;
+	line-height: 1.4em;
 }
 .profile-skills{
 	padding: 5px 3.5% 0;

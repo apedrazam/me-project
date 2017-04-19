@@ -211,25 +211,6 @@ a.action-btn{
 .media-btn{
 
 }
-.info-btn{
-	background-color: #4b83aa;
-	border-radius: 50%;
-	cursor: pointer;
-	margin: 15px 20px;
-	position:fixed;
-	right: 0;
-	top: 0;
-	
-}
-.info-btn button{
-	background-color: transparent;
-	border: none;
-	color: #fbfbff;
-	font-family: 'yanone_kaffeesatz-regular';
-	font-size: 3vmax;
-	line-height: normal;
-	padding: 0;
-}
 .close-btn{
     background: transparent;
     border: none;
@@ -244,7 +225,20 @@ a.action-btn{
 }
 .profile-buttons{
 	flex-basis: 15%;
-	padding: 10px 40px 30px;
+	min-width: 140px;
+	padding: 1% 40px 30px 4%;
+	text-align: center;
+}
+.profile-button{
+	background-color: transparent;
+	border:none;
+	padding: 0;
+	cursor: pointer;
+}
+.profile-button img{
+	max-width: 70px;
+	width: 6vw;
+	height: 6vw;
 }
 .profile-container{
 	flex-basis: 85%;
@@ -302,7 +296,8 @@ a.action-btn{
 	max-width: 100%;
 }
 .profile-description{
-	font-size: 1.2em;
+	font-size: 1.1em;
+	line-height: 1.4em;
 }
 .profile-skills{
 	padding: 5px 3.5% 0;
@@ -406,11 +401,17 @@ a.action-btn{
 	.profile-container{
 		flex-basis: 100%;
 	}
+	.profile-buttons{
+		padding: 20px 34px 30px;
+	}
+	.profile-button img {
+		width: 8vw;
+	}
 	.profile{
 		padding: 15px 20px;
 	}
 	.profile-description{
-		font-size: 1.1em;
+		font-size: 1em;
 	}
 	.skill-name{
 		font-size: .9em;
@@ -428,20 +429,29 @@ a.action-btn{
 	.profile-information{
 		flex-basis: 100%;
 	}
+	.profile-information{
+		padding: 0 5px;
+	}
 	.profile-image img{
+		margin-bottom: 20px;
 		max-height: 60vh;
 		max-width: auto;
-		margin-bottom: 20px
+	}
+	.profile-name{
+		font-size: 5vmax;
+	}
+	.profile-description{
+		padding-left: 5px;
 	}
 	.profile-navigation{
 		position: fixed;
 		top: 50vh;
 	}
 	.next-profile{
-		right: 15px;
+		right: 10px;
 	}
 	.prev-profile{
-		left: -5px;
+		left: -10px;
 	}
 	.action-btn{
 		margin: 7px 3%;

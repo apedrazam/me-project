@@ -6950,7 +6950,7 @@ module.exports = [
 	{
 		"id": 0,
 		"name": "THE UI DEVELOPER",
-		"thumbnailURL": "",
+		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-01.svg",
 		"description": "This ME believes in a strong definition of concepts. He dreams with a modular world full of beautiful neat transitions, accessible to everyone and available in any screen resolution.",
 		"imageURL": "./assets/images/profiles/ui-developer.svg",
 		"skillsCategories": [
@@ -7007,7 +7007,7 @@ module.exports = [
 	{
 		"id": 1,
 		"name": "THE UX/UI CONSULTANT",
-		"thumbnailURL": "",
+		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-02.svg",
 		"description": "This mate conceives the web as a way of narration. He stands for the creation of meaningful flows crowded with strong charismatic interfaces so our story can be tell the best way possible for our users.",
 		"imageURL": "./assets/images/profiles/ux-ui.svg",
 		"skillsCategories": [
@@ -7060,7 +7060,7 @@ module.exports = [
 	{
 		"id": 2,
 		"name": "THE FRAMEWORKER",
-		"thumbnailURL": "",
+		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-03.svg",
 		"description": "This mate is all about get the job done and he knows that a good framework can be your best friend in your fast way to success.",
 		"imageURL": "./assets/images/profiles/frameworker.svg",
 		"skillsCategories": [
@@ -7135,7 +7135,7 @@ module.exports = [
 	{
 		"id": 3,
 		"name": "THE VISUAL DESIGNER",
-		"thumbnailURL": "",
+		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-04.svg",
 		"description": "This ME was the first one in the professional world. He doesn’t have great drawing skills but tons of ideas. That’s why he felt in love with bézier curves, funny montages and identity briefs right in the moment he met them.",
 		"imageURL": "./assets/images/profiles/visual-designer.svg",
 		"skillsCategories": [
@@ -7192,7 +7192,7 @@ module.exports = [
 	{
 		"id": 4,
 		"name": "THE HYPE FOCUSED",
-		"thumbnailURL": "",
+		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-05.svg",
 		"description": "This ME wants to impress you. He is curious and he is terrified of dying if he stops. That’s why this ME browses the web trying to know and learn what is going on.",
 		"imageURL": "./assets/images/profiles/hype-focused.svg",
 		"skillsCategories": [
@@ -7241,8 +7241,8 @@ module.exports = [
 	{
 		"id": 5,
 		"name": "THE CONTENT DEFENDER",
-		"thumbnailURL": "",
-		"description": "In IT is really common to start building design without any content at all. This mate thinks the best way to structure and build a design is working over the actual content and forgetting the Lorem Ipsum. He will always be pleased to work in this kind of project in order to provide better results.",
+		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-06.svg",
+		"description": "In IT is really common start a design without any content at all. This mate thinks the best way to build a design is working over the actual content and forgetting the Lorem Ipsum. He will always be pleased to work in this kind of project that, he knows, provide better results.",
 		"imageURL": "./assets/images/profiles/content-defender.svg",
 		"skillsCategories": [
 			{
@@ -7298,7 +7298,7 @@ module.exports = [
 	{
 		"id": 6,
 		"name": "THE TEAM PLAYER",
-		"thumbnailURL": "",
+		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-07.svg",
 		"description": "This ME is really social and he has realised that there is nothing better than working in a good project with a great team. Even if the project isn’t so cool, working with the correct people creates revenue and makes us better workers.",
 		"imageURL": "./assets/images/profiles/team-player.svg",
 		"skillsCategories": [
@@ -7347,7 +7347,7 @@ module.exports = [
 	{
 		"id": 7,
 		"name": "THE WANDERLUSTER",
-		"thumbnailURL": "",
+		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-08.svg",
 		"description": "Travel, hike, learn, visit any lost corner of the world. We live in a world where we can go almost everywhere and met the furthest places. Who wouldn’t want to?",
 		"imageURL": "./assets/images/profiles/wanderluster.svg",
 		"skillsCategories": [
@@ -7408,7 +7408,7 @@ module.exports = [
 	{
 		"id": 8,
 		"name": "THE WRITER",
-		"thumbnailURL": "",
+		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-09.svg",
 		"description": "This ME loves the language and playing with it. He had a blog where he wrote some of the crazy stuff locked in his mind. Now, he is willing to set it free again... Maybe.",
 		"imageURL": "./assets/images/profiles/writer.svg",
 		"skillsCategories": [
@@ -7465,7 +7465,7 @@ module.exports = [
 	{
 		"id": 9,
 		"name": "THE GAME DESIGNER",
-		"thumbnailURL": "",
+		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-10.svg",
 		"description": "This one is a real geek of board games. Like with everything he loves, he enjoys get involve and someday he will finish some of the games he has been working on.",
 		"imageURL": "./assets/images/profiles/game-designer.svg",
 		"skillsCategories": [
@@ -7522,7 +7522,7 @@ module.exports = [
 	{
 		"id": 10,
 		"name": "THE IDIOTIC MUSICIAN",
-		"thumbnailURL": "",
+		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-11.svg",
 		"description": "He sing badly. He doesn’t know what rhythm is. He doesn’t even have a guitar. But he loves music and he makes slightly tolerable lyrics. Doesn’t he deserve a chance?",
 		"imageURL": "./assets/images/profiles/idiotic-musician.svg",
 		"skillsCategories": [
@@ -10179,27 +10179,27 @@ var map = {
 	"./fonts/yanone-kaffeesatz/yanonekaffeesatz-regular-webfont.woff2": 164,
 	"./images/next-profile.svg": 165,
 	"./images/prev-profile.svg": 166,
-	"./images/profiles/content-defender.png": 167,
-	"./images/profiles/content-defender.svg": 168,
-	"./images/profiles/frameworker.png": 169,
-	"./images/profiles/frameworker.svg": 170,
-	"./images/profiles/game-designer.png": 171,
-	"./images/profiles/game-designer.svg": 172,
-	"./images/profiles/hype-focused.png": 173,
-	"./images/profiles/hype-focused.svg": 174,
-	"./images/profiles/idiotic-musician.png": 175,
-	"./images/profiles/idiotic-musician.svg": 176,
-	"./images/profiles/team-player.png": 177,
-	"./images/profiles/team-player.svg": 178,
-	"./images/profiles/ui-developer.png": 179,
-	"./images/profiles/ui-developer.svg": 180,
-	"./images/profiles/ux-ui.png": 181,
-	"./images/profiles/ux-ui.svg": 182,
-	"./images/profiles/visual-designer.png": 183,
-	"./images/profiles/visual-designer.svg": 184,
-	"./images/profiles/wanderluster.png": 185,
-	"./images/profiles/wanderluster.svg": 186,
-	"./images/profiles/writer .png": 187,
+	"./images/profiles/content-defender.svg": 167,
+	"./images/profiles/frameworker.svg": 168,
+	"./images/profiles/game-designer.svg": 169,
+	"./images/profiles/hype-focused.svg": 170,
+	"./images/profiles/idiotic-musician.svg": 171,
+	"./images/profiles/team-player.svg": 172,
+	"./images/profiles/thumbnails/thumbnail-01.svg": 173,
+	"./images/profiles/thumbnails/thumbnail-02.svg": 174,
+	"./images/profiles/thumbnails/thumbnail-03.svg": 175,
+	"./images/profiles/thumbnails/thumbnail-04.svg": 176,
+	"./images/profiles/thumbnails/thumbnail-05.svg": 177,
+	"./images/profiles/thumbnails/thumbnail-06.svg": 178,
+	"./images/profiles/thumbnails/thumbnail-07.svg": 179,
+	"./images/profiles/thumbnails/thumbnail-08.svg": 180,
+	"./images/profiles/thumbnails/thumbnail-09.svg": 181,
+	"./images/profiles/thumbnails/thumbnail-10.svg": 182,
+	"./images/profiles/thumbnails/thumbnail-11.svg": 183,
+	"./images/profiles/ui-developer.svg": 184,
+	"./images/profiles/ux-ui.svg": 185,
+	"./images/profiles/visual-designer.svg": 186,
+	"./images/profiles/wanderluster.svg": 187,
 	"./images/profiles/writer.svg": 188,
 	"./images/stars.svg": 189
 };
@@ -10272,10 +10272,9 @@ var ProfileList = function (_React$Component) {
 		value: function render() {
 			var profileItem = this.props.ProfileData.map(function (profile) {
 				return _react2.default.createElement(
-					'button',
-					{ key: profile.id, value: profile.id, title: profile.name,
-						onClick: this.props.chooseProfile },
-					profile.name
+					'div',
+					{ key: profile.id, value: profile.id, title: profile.name, onClick: this.props.chooseProfile },
+					_react2.default.createElement('img', { src: profile.thumbnailURL })
 				);
 			}.bind(this));
 			return _react2.default.createElement(
@@ -11480,10 +11479,13 @@ var Thumbnail = function (_React$Component) {
 	}
 
 	_createClass(Thumbnail, [{
-		key: 'render',
+		key: "render",
 		value: function render() {
-			// return(
-			// )
+			return _react2.default.createElement(
+				"button",
+				{ className: "profile-button", key: this.props.id, value: this.props.id },
+				_react2.default.createElement("img", { src: this.props.thumbnailURL, onClick: this.props.selectProfile, alt: this.props.name, title: this.props.name })
+			);
 		}
 	}]);
 
@@ -12523,127 +12525,127 @@ module.exports = __webpack_require__.p + "assets/images/prev-profile.svg";
 /* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/content-defender.png";
+module.exports = __webpack_require__.p + "assets/images/profiles/content-defender.svg";
 
 /***/ }),
 /* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/content-defender.svg";
+module.exports = __webpack_require__.p + "assets/images/profiles/frameworker.svg";
 
 /***/ }),
 /* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/frameworker.png";
+module.exports = __webpack_require__.p + "assets/images/profiles/game-designer.svg";
 
 /***/ }),
 /* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/frameworker.svg";
+module.exports = __webpack_require__.p + "assets/images/profiles/hype-focused.svg";
 
 /***/ }),
 /* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/game-designer.png";
+module.exports = __webpack_require__.p + "assets/images/profiles/idiotic-musician.svg";
 
 /***/ }),
 /* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/game-designer.svg";
+module.exports = __webpack_require__.p + "assets/images/profiles/team-player.svg";
 
 /***/ }),
 /* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/hype-focused.png";
+module.exports = __webpack_require__.p + "assets/images/profiles/thumbnails/thumbnail-01.svg";
 
 /***/ }),
 /* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/hype-focused.svg";
+module.exports = __webpack_require__.p + "assets/images/profiles/thumbnails/thumbnail-02.svg";
 
 /***/ }),
 /* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/idiotic-musician.png";
+module.exports = __webpack_require__.p + "assets/images/profiles/thumbnails/thumbnail-03.svg";
 
 /***/ }),
 /* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/idiotic-musician.svg";
+module.exports = __webpack_require__.p + "assets/images/profiles/thumbnails/thumbnail-04.svg";
 
 /***/ }),
 /* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/team-player.png";
+module.exports = __webpack_require__.p + "assets/images/profiles/thumbnails/thumbnail-05.svg";
 
 /***/ }),
 /* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/team-player.svg";
+module.exports = __webpack_require__.p + "assets/images/profiles/thumbnails/thumbnail-06.svg";
 
 /***/ }),
 /* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/ui-developer.png";
+module.exports = __webpack_require__.p + "assets/images/profiles/thumbnails/thumbnail-07.svg";
 
 /***/ }),
 /* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/ui-developer.svg";
+module.exports = __webpack_require__.p + "assets/images/profiles/thumbnails/thumbnail-08.svg";
 
 /***/ }),
 /* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/ux-ui.png";
+module.exports = __webpack_require__.p + "assets/images/profiles/thumbnails/thumbnail-09.svg";
 
 /***/ }),
 /* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/ux-ui.svg";
+module.exports = __webpack_require__.p + "assets/images/profiles/thumbnails/thumbnail-10.svg";
 
 /***/ }),
 /* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/visual-designer.png";
+module.exports = __webpack_require__.p + "assets/images/profiles/thumbnails/thumbnail-11.svg";
 
 /***/ }),
 /* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/visual-designer.svg";
+module.exports = __webpack_require__.p + "assets/images/profiles/ui-developer.svg";
 
 /***/ }),
 /* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/wanderluster.png";
+module.exports = __webpack_require__.p + "assets/images/profiles/ux-ui.svg";
 
 /***/ }),
 /* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/wanderluster.svg";
+module.exports = __webpack_require__.p + "assets/images/profiles/visual-designer.svg";
 
 /***/ }),
 /* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/profiles/writer .png";
+module.exports = __webpack_require__.p + "assets/images/profiles/wanderluster.svg";
 
 /***/ }),
 /* 188 */
