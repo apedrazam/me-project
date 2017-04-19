@@ -9,9 +9,10 @@ require('./media-queries.css');
 function requireAll(r) { r.keys().forEach(r); }
 requireAll(require.context('../assets/', true, /\.*$/));
 
-
 import React from 'react';
 import { render } from 'react-dom';
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-97694239-1');
 
 import Footer from './vendor/footer.js';
 import Header from './vendor/header.js';

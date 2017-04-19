@@ -37,7 +37,7 @@ class Header extends React.Component {
 			<header className="header">
 				<h1>{this.props.title}</h1>
 				<div className="main-actions">
-					<ActionButton value="Contact" category="action-btn" action={this.contactModal} />
+					<LinkButton value="Contact" category="action-btn" link="mailto:hello@hyphenfrog.c" />
 					<LinkButton value="Download CV" category="action-btn" link="./assets/AdrianPedrazaCV.pdf" />
 					<ActionButton value="About" category="action-btn" action={this.aboutModal} />
 				</div>
@@ -46,6 +46,8 @@ class Header extends React.Component {
 
 		)
 	}
+	//Contact form. Pending of implementation of service
+	//<ActionButton value="Contact" category="action-btn" action={this.contactModal} />
 }
 
 export default Header;

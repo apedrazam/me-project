@@ -80,6 +80,13 @@
 		font-size: 3.7vmax;
 	}
 }
+@media screen and (max-width: 550px){
+	.about-text,
+	.interesting-data {
+		flex-basis: 100%;
+		margin-bottom: 20px;
+	}
+}
 
 /* high resolution smartphones in landscape */
 @media screen and (max-width:667px) and (orientation: landscape) {
