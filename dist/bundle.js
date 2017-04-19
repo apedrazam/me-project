@@ -10267,11 +10267,14 @@ var ProfileList = function (_React$Component) {
 		key: 'render',
 		value: function render() {
 			var profileItem = this.props.ProfileData.map(function (profile) {
-				return _react2.default.createElement(
-					'div',
-					{ className: 'profile-button-container', key: profile.id },
-					_react2.default.createElement('img', { className: 'profile-button-img', src: profile.thumbnailURL }),
-					_react2.default.createElement('button', { className: 'profile-button', value: profile.id, title: profile.name, onClick: this.props.chooseProfile })
+				return (
+					//to be fixed when onClick decides to work out of button element
+					_react2.default.createElement(
+						'div',
+						{ className: 'profile-button-container', key: profile.id },
+						_react2.default.createElement('img', { className: 'profile-button-img', src: profile.thumbnailURL }),
+						_react2.default.createElement('button', { className: 'profile-button', value: profile.id, title: profile.name, onClick: this.props.chooseProfile })
+					)
 				);
 			}.bind(this));
 			return _react2.default.createElement(
@@ -10899,7 +10902,7 @@ var FormInput = function (_React$Component) {
 					_react2.default.createElement('textarea', { className: 'form-input', required: true, ref: 'message', rows: '5', placeholder: 'Write me a message...' }),
 					_react2.default.createElement(
 						'button',
-						{ className: 'submit-btn', type: 'submit' },
+						{ className: 'action-btn', type: 'submit' },
 						'Send'
 					)
 				)

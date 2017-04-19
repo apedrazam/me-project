@@ -21,37 +21,40 @@
 	border-radius: 5px;
 	height: auto;
 	margin: 0 auto;
-	max-height: 70vh;
+	max-height: 80vh;
 	max-width: 900px;
-    padding: 20px 4% 40px;
+    padding: 20px 4%;
     position: relative;
 	overflow-y: scroll;
-    top: 20vh;
+    top: 10vh;
 	width: 80vw;
 }
 .modal-container{
-	padding: 20px 10px 40px;
+	padding: 20px 10px;
 	overflow: hidden;
 }
-.modal-header{
-
+.modal-header h2{
+	margin-bottom: 30px;
 }
 .modal-content{
+	line-height: 1.4em;
 
-}
-.modal-footer{
-	height:40px;
 }
 .form-container{
 
 }
 #contact-form{
-
+	text-align: center;
 }
 .form-input{
-
-}
-.submit-btn{
+	display: block;
+	font-size: .88em;
+	line-height: 2em;
+	margin: 20px auto;
+	max-width: 500px;
+	padding: 10px;
+	width:80%;
+	border: 1px solid #bbbed2;
 
 }
 .alert-info{

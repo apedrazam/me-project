@@ -3,7 +3,7 @@
 	    margin-bottom: 15px;
 	}
 	.modal-box{
-	    top: 10vh;
+	    top: 8vh;
 	}
 	.profile-selection{
 		flex-wrap: wrap-reverse;
@@ -15,9 +15,14 @@
 	.profile-buttons{
 		padding: 20px 34px 30px;
 	}
-	.profile-button img {
+	/* THIS IS HELL */
+	.profile-button-container,
+	.profile-button,
+	.profile-button-img{
+		height: 8vw;
 		width: 8vw;
 	}
+	/*-------------*/
 	.profile{
 		padding: 15px 20px;
 	}
@@ -43,11 +48,14 @@
 	.profile-information{
 		padding: 0 5px;
 	}
-	.profile-image img{
-		margin-bottom: 20px;
-		max-height: 60vh;
-		max-width: auto;
+	/* THIS IS HELL */
+	.profile-button-container,
+	.profile-button,
+	.profile-button-img{
+		height: 14vw;
+		width: 14vw;
 	}
+	/*-------------*/
 	.profile-name{
 		font-size: 5vmax;
 	}
@@ -67,6 +75,9 @@
 	.action-btn{
 		margin: 7px 3%;
 		width: 60%;
+	}
+	#contact-form .action-btn{
+		font-size: 3.7vmax;
 	}
 }
 

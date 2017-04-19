@@ -63,7 +63,7 @@ class FormInput extends React.Component {
 					<input className="form-input" required ref="name" type="name" placeholder="Name" />
 					<input className="form-input" required ref="email" type="email" placeholder="Email" />
 					<textarea className="form-input" required ref="message" rows="5" placeholder="Write me a message..." />
-					<button className="submit-btn" type="submit">Send</button>
+					<button className="action-btn" type="submit">Send</button>
 				</form>
 			</div>
 		)

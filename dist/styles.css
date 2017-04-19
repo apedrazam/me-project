@@ -229,31 +229,38 @@ a.action-btn{
 	padding: 1% 40px 30px 4%;
 	text-align: center;
 }
+/* THIS IS HELL */
 .profile-button-container{
+	display: inline-block;
+	height: 6vw;
+	max-height: 70px;
+	max-width: 70px;
 	position: relative;
 	width: 6vw;
-	height: 6vw;
 }
 .profile-button{
 	background-color: transparent;
 	border:none;
-	padding: 0;
 	cursor: pointer;
-	max-width: 70px;
-	width: 6vw;
 	height: 6vw;
+	left: 0;
+	max-height: 70px;
+	max-width: 70px;
+	padding: 0;
 	position: absolute;
 	top: 0;
-	left: 0;
+	width: 6vw;
 }
 .profile-button-img{
-	max-width: 70px;
-	width: 6vw;
 	height: 6vw;
+	left: 0;
+	max-height: 70px;
+	max-width: 70px;
 	position: absolute;
 	top: 0;
-	left: 0;
+	width: 6vw;
 }
+/*-------------*/
 .profile-container{
 	flex-basis: 85%;
 	padding: 0 10px;
@@ -360,22 +367,23 @@ a.action-btn{
 	border-radius: 5px;
 	height: auto;
 	margin: 0 auto;
-	max-height: 70vh;
+	max-height: 80vh;
 	max-width: 900px;
-    padding: 20px 4% 40px;
+    padding: 20px 4%;
     position: relative;
 	overflow-y: scroll;
-    top: 20vh;
+    top: 12vh;
 	width: 80vw;
 }
 .modal-container{
-	padding: 20px 10px 40px;
+	padding: 20px 10px;
 	overflow: hidden;
 }
-.modal-header{
-
+.modal-header h2{
+	margin-bottom: 30px;
 }
 .modal-content{
+	line-height: 1.4em;
 
 }
 .modal-footer{
@@ -385,12 +393,17 @@ a.action-btn{
 
 }
 #contact-form{
-
+	text-align: center;
 }
 .form-input{
-
-}
-.submit-btn{
+	display: block;
+	font-size: .88em;
+	line-height: 2em;
+	margin: 20px auto;
+	max-width: 500px;
+	padding: 10px;
+	width:80%;
+	border: 1px solid #bbbed2;
 
 }
 .alert-info{
@@ -418,9 +431,14 @@ a.action-btn{
 	.profile-buttons{
 		padding: 20px 34px 30px;
 	}
-	.profile-button img {
+	/* THIS IS HELL */
+	.profile-button-container,
+	.profile-button,
+	.profile-button-img{
+		height: 8vw;
 		width: 8vw;
 	}
+	/*-------------*/
 	.profile{
 		padding: 15px 20px;
 	}
@@ -446,11 +464,14 @@ a.action-btn{
 	.profile-information{
 		padding: 0 5px;
 	}
-	.profile-image img{
-		margin-bottom: 20px;
-		max-height: 60vh;
-		max-width: auto;
+	/* THIS IS HELL */
+	.profile-button-container,
+	.profile-button,
+	.profile-button-img{
+		height: 14vw;
+		width: 14vw;
 	}
+	/*-------------*/
 	.profile-name{
 		font-size: 5vmax;
 	}

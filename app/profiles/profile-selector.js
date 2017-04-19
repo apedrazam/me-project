@@ -9,6 +9,7 @@ class ProfileList extends React.Component {
 	render() {
 		var profileItem = this.props.ProfileData.map(function(profile) {
 			return (
+				//to be fixed when onClick decides to work out of button element
 				<div className="profile-button-container" key={profile.id}>
 				<img className="profile-button-img" src={profile.thumbnailURL} />
 				<button className="profile-button" value={profile.id} title={profile.name} onClick={this.props.chooseProfile} >

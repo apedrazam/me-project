@@ -23,8 +23,6 @@ class Modal extends React.Component {
 									<About />
 								)}
 							</div>
-							<div className="modal-footer">
-							</div>
 						</div>
 					</div>
 				</div>
