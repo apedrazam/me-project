@@ -9,10 +9,11 @@ class ProfileList extends React.Component {
 	render() {
 		var profileItem = this.props.ProfileData.map(function(profile) {
 			return (
-				<button key={profile.id} value={profile.id} title={profile.name}
-				onClick={this.props.chooseProfile}>
-					{profile.name}
+				<div className="profile-button-container" key={profile.id}>
+				<img className="profile-button-img" src={profile.thumbnailURL} />
+				<button className="profile-button" value={profile.id} title={profile.name} onClick={this.props.chooseProfile} >
 				</button>
+				</div>
 			)
  		}.bind(this));
  		return (
