@@ -45,15 +45,15 @@ table {
 }
 h1{
 	font-family: 'yanone_kaffeesatz-bold';
-	font-size: calc(7.5vmax + 20%);
+	font-size: 10vh;
 }
 h2{
 	font-family: 'yanone_kaffeesatz-regular';
-	font-size: 3.5vmax;
+	font-size: 4vh;
 }
 h3 {
 	font-family: 'yanone_kaffeesatz-light';
-	font-size: 2.1vmax;
+	font-size: 3.5vh;
 }
 button:focus{
 	outline: 0;
@@ -78,6 +78,26 @@ button:focus{
 	color: #4b83aa;
 	padding: 20px;
 	position: relative;
+	text-align: center;
+}
+.footer{
+	bottom: 5px;
+	max-width: 1200px;
+	position: absolute;
+	width: 100%;
+
+}
+.media-container{
+	text-align: center;
+}
+.media-btn img{
+	width: 45px;
+	padding: 0 8px;
+}
+.copy-text{
+	color: #4b83aa;
+	font-size: .7em;
+	padding: 5px 0;
 	text-align: center;
 }
 

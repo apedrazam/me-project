@@ -22,6 +22,7 @@ render(
 	<div className="main-container">
 		<Header title="CHOOSE YOUR ME" />
 		<ProfileSelector/>
+		<Footer />
 	</div>,
 	document.getElementById("app")
 );

@@ -32,11 +32,20 @@
 	.skill-name{
 		font-size: .9em;
 	}
+	.footer{
+		position: relative;
+	}
 }
 	
 @media (max-width: 480px){
+	h1{
+		font-size: 8vh;
+	}
+	h2{
+		font-size: 6vh;
+	}
 	h3 {
-		font-size: 3vmax;
+		font-size: 4.5vh;
 	}
 	.profile{
 		padding: 15px;
@@ -90,8 +99,18 @@
 
 /* high resolution smartphones in landscape */
 @media screen and (max-width:667px) and (orientation: landscape) {
+	
+	h1{
+		font-size: 15vh;
+	}
+	h2{
+		font-size: 8vh;
+	}
 	h3 {
-		font-size: 3vmax;
+		font-size: 7vh;
+	}
+	.action-btn{
+		font-size: 7vh;
 	}
 	.modal-box{
 	    top: 5vh;

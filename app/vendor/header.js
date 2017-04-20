@@ -37,8 +37,8 @@ class Header extends React.Component {
 			<header className="header">
 				<h1>{this.props.title}</h1>
 				<div className="main-actions">
-					<LinkButton value="Contact" category="action-btn" link="mailto:hello@hyphenfrog.c" />
-					<LinkButton value="Download CV" category="action-btn" link="./assets/AdrianPedrazaCV.pdf" />
+					<LinkButton value="Contact" category="action-btn" link="mailto:hello@hyphenfrog.c" target="_self" />
+					<LinkButton value="Download CV" category="action-btn" link="./assets/AdrianPedrazaCV.pdf" target="_blank" />
 					<ActionButton value="About" category="action-btn" action={this.aboutModal} />
 				</div>
 				<Modal modalData={this.state} closeAction={this.closeModal} />

@@ -21,7 +21,7 @@
 	border-radius: 5px;
 	height: auto;
 	margin: 0 auto;
-	max-height: 80vh;
+	max-height: 85vh;
 	max-width: 900px;
     padding: 20px 4%;
     position: relative;
@@ -83,7 +83,8 @@
 .interesting-data p{
 	margin-bottom: 10px;
 }
-.about-text b{
+.about-text b,
+.interesting-data b{
 	font-family: 'hind-semibold';
 }
 p.question{

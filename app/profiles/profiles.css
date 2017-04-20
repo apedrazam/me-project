@@ -46,7 +46,7 @@
 }
 .profile-navigation{
 	position: absolute;
-	top: 25vh;
+	top: 35%;
 	width: 100%;
 }
 .next-profile,
@@ -68,9 +68,10 @@
 	position: absolute;
 }
 .profile{
-	padding: 10px 7% 10px 0;
 	display: flex;
 	flex-wrap: wrap;
+	padding: 10px 7% 10px 0;
+	position: relative;
 }
 .profile-name{
 	flex-basis: 100%;

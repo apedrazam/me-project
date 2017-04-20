@@ -12,15 +12,15 @@ class About extends React.Component {
 				</div>
 				<div className="interesting-data">
 					<h5>More serious information</h5>
-					<p className="question"><b>Do you have any work limitation?</b></p>
+					<p className="question">Do you have any work limitation?</p>
 					<p>Yes. There are two things: first of them, I can't work in the same company for more than <b>six months</b>. The second one is that I can only work until April 12th, 2018.</p>
-					<p className="question"><b>Then, can you work full-time?</b></p>
+					<p className="question">Then, can you work full-time?</p>
 					<p>Again, yes. As long as I don't stay in a company for more than six months I can work <b>Full-time</b>, <b>Part-time</b> or <b>Contract</b>.</p>
-					<p className="question"><b>Which do you said was your visa information?</b></p>
+					<p className="question">Which do you said was your visa information?</p>
 					<p>I'm holder of a Work & Holiday Visa (subclass 462). <b>Grant ID. 0350111557305K</b>.</p>
-					<p className="question"><b>Ok. You got me. Where do I contact you?</b></p>
+					<p className="question">Ok. You got me. Where do I contact you?</p>
 					<p>You can send me an email using the contact form you have in this same site or call me. My personal contact number in Australia is <b>0466983237</b>.</p>
-					<p className="question"><b>Do the MEs bite?</b></p>
+					<p className="question">Do the MEs bite?</p>
 					<p>Nope. They are completely domesticated and are really peaceful diligent creatures.</p>
 				</div>
 			</div>
