@@ -6951,7 +6951,7 @@ module.exports = [
 		"id": 0,
 		"name": "THE UI DEVELOPER",
 		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-01.svg",
-		"description": "This ME believes in a strong definition of concepts. He dreams with a modular world full of beautiful neat transitions, accessible to everyone and available in any screen resolution.",
+		"description": "This ME believes in a strong definition of concepts. He dreams of a modular world full of beautiful neat transitions, accessible to everyone and available in any screen resolution.",
 		"imageURL": "./assets/images/profiles/ui-developer.svg",
 		"skillsCategories": [
 			{
@@ -7008,7 +7008,7 @@ module.exports = [
 		"id": 1,
 		"name": "THE UX/UI CONSULTANT",
 		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-02.svg",
-		"description": "This mate conceives the web as a way of narration. He stands for the creation of meaningful flows crowded with strong charismatic interfaces so our story can be told the best possible way for our users.",
+		"description": "This mate conceives of the web as a way of narration. He stands for the creation of meaningful flows punctuated with strong charismatic interfaces so our story can be told to our users in the best possible way.",
 		"imageURL": "./assets/images/profiles/ux-ui.svg",
 		"skillsCategories": [
 			{
@@ -7061,7 +7061,7 @@ module.exports = [
 		"id": 2,
 		"name": "THE FRAMEWORKER",
 		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-03.svg",
-		"description": "This mate is all about getting the job done and he knows that a good framework can be your best friend in your fast way to success.",
+		"description": "This chap is all about getting the job done and he knows that a good framework can be your best friend on your fast way to success.",
 		"imageURL": "./assets/images/profiles/frameworker.svg",
 		"skillsCategories": [
 			{
@@ -7136,7 +7136,7 @@ module.exports = [
 		"id": 3,
 		"name": "THE VISUAL DESIGNER",
 		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-04.svg",
-		"description": "This ME was the first one in the professional world. He doesn’t have great drawing skills but does have tons of ideas. That’s why he felt in love with bézier curves, funny montages and identity briefs right in the moment he met them.",
+		"description": "This ME was the first one to foray into the professional world. He doesn’t have great drawing skills but does have tons of ideas. That’s why he fell in love with bézier curves, funny montages and identity briefs right at the moment he met them.",
 		"imageURL": "./assets/images/profiles/visual-designer.svg",
 		"skillsCategories": [
 			{
@@ -7193,7 +7193,7 @@ module.exports = [
 		"id": 4,
 		"name": "THE HYPE FOCUSED",
 		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-05.svg",
-		"description": "This ME wants to impress you. He is curious and he is terrified of dying if he stops. That’s why this ME browses the web trying to know and learn what is going on.",
+		"description": "This ME wants to impress you. He is curious character and terrified of dying if he stops. That’s why this ME browses the web trying to stay on the cutting edge and keep on top of what is going on.",
 		"imageURL": "./assets/images/profiles/hype-focused.svg",
 		"skillsCategories": [
 			{
@@ -7242,7 +7242,7 @@ module.exports = [
 		"id": 5,
 		"name": "THE CONTENT DEFENDER",
 		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-06.svg",
-		"description": "In IT it is really common to start a design without any contents at all. This mate thinks the best way to build a design is by working over the actual content and forgetting the Lorem Ipsum. He will always be pleased to work in this kind of projects that, he knows, provide better results.",
+		"description": "In IT it is really common to start a design without any content at all. This mate thinks the best way to build a design is by working over the actual content and forgetting the Lorem Ipsum. He will always be pleased to work on the kind of projects that, he knows, provide better results.",
 		"imageURL": "./assets/images/profiles/content-defender.svg",
 		"skillsCategories": [
 			{
@@ -7299,7 +7299,7 @@ module.exports = [
 		"id": 6,
 		"name": "THE TEAM PLAYER",
 		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-07.svg",
-		"description": "This ME is really social and he has realised that there is nothing better than working in a good project with a great team. Even if the project isn’t so cool, working with the correct people creates revenue and makes us better workers.",
+		"description": "This ME is a really social feller and he has realised that there is nothing better than working on a good project with a great team. Even if the project isn’t so cool, working with the correct people creates revenue and makes us better workers.",
 		"imageURL": "./assets/images/profiles/team-player.svg",
 		"skillsCategories": [
 			{
@@ -7466,7 +7466,7 @@ module.exports = [
 		"id": 9,
 		"name": "THE GAME DESIGNER",
 		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-10.svg",
-		"description": "This one is a real geek of board games. Like with everything he loves, he enjoys getting involved and someday he will finish some of the games he has been working on.",
+		"description": "This one is a real board game geek. As with everything he loves, he enjoys getting involved and someday he will finish some of the games he has been working on.",
 		"imageURL": "./assets/images/profiles/game-designer.svg",
 		"skillsCategories": [
 			{
@@ -7523,7 +7523,7 @@ module.exports = [
 		"id": 10,
 		"name": "THE IDIOTIC MUSICIAN",
 		"thumbnailURL": "./assets/images/profiles/thumbnails/thumbnail-11.svg",
-		"description": "He sing badly. He doesn’t know what rhythm is. He doesn’t even have a guitar. But he loves music and he makes slightly tolerable lyrics. Doesn’t he deserve a chance?",
+		"description": "He sings badly. He doesn’t know what rhythm is. He doesn’t even have a guitar. But he loves music and he writes right about tolerable lyrics. Doesn’t he deserve a chance?",
 		"imageURL": "./assets/images/profiles/idiotic-musician.svg",
 		"skillsCategories": [
 			{
@@ -10444,7 +10444,7 @@ var Footer = function (_React$Component) {
 					'div',
 					{ className: 'media-container' },
 					_react2.default.createElement(_mediaButton2.default, { name: 'LinkedIn', category: 'media-btn', link: 'https://www.linkedin.com/in/adrianpedrazam/', image: './assets/images/media-linkedin.svg' }),
-					_react2.default.createElement(_mediaButton2.default, { name: 'Github', category: 'media-btn', link: 'https://github.com/hyphenfrog', image: './assets/images/media-github.svg' }),
+					_react2.default.createElement(_mediaButton2.default, { name: 'Github', category: 'media-btn', link: 'https://github.com/hyphenfrog/me-project', image: './assets/images/media-github.svg' }),
 					_react2.default.createElement(_mediaButton2.default, { name: 'Twitter', category: 'media-btn', link: 'https://twitter.com/hyphenfrog', image: './assets/images/media-twitter.svg' })
 				),
 				_react2.default.createElement(
@@ -11394,7 +11394,7 @@ var About = function (_React$Component) {
 							null,
 							"Spain"
 						),
-						", the MEs are always willing to prove their value but, since they are small beings, their minds only have room for one single topic. These exceptional living creatures focus their existence in their passion (some of them even have been called fanatics). Luckily for Adri\xE1n, most of them have followed profitable ways and have focused their efforts in the areas known as ",
+						", the MEs are always willing to prove their value but, since they are small beings, their minds only have room for one single topic. These exceptional living creatures focus their existence on their passion (some of them even have been called fanatics). Luckily for Adri\xE1n, most of them have followed profitable paths and have channelled their efforts into the areas known as ",
 						_react2.default.createElement(
 							"b",
 							null,
@@ -11417,7 +11417,7 @@ var About = function (_React$Component) {
 							null,
 							"Work & Holiday Visa (subclass 462)"
 						),
-						" and the MEs are ready to prove how good they are in their specific areas."
+						" and the MEs are ready to prove just how good they are in their specific areas."
 					),
 					_react2.default.createElement(
 						"p",
@@ -11428,7 +11428,7 @@ var About = function (_React$Component) {
 							null,
 							"April 12th, 2018"
 						),
-						", your company and you have the chance of hiring Adri\xE1n and, with that, any of the MEs you could be interested in."
+						", you and your company and you have the chance of hiring Adri\xE1n and, with that, any of the MEs you may be interested in."
 					),
 					_react2.default.createElement(
 						"p",
@@ -11480,7 +11480,7 @@ var About = function (_React$Component) {
 							null,
 							"Part-time"
 						),
-						" or ",
+						" or on ",
 						_react2.default.createElement(
 							"b",
 							null,
