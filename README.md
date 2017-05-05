@@ -1,3 +1,5 @@
+# FUTURE IMPLEMENTATIONS
+
 ~1. Add media links~
 
 2. Fix modal display
