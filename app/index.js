@@ -16,11 +16,13 @@ ReactGA.initialize('UA-97694239-1');
 
 import Footer from './vendor/footer.js';
 import Header from './vendor/header.js';
+import MainActions from './vendor/main-actions.js';
 import ProfileSelector from './profiles/profile-selector.js';
 
 render(
 	<div className="main-container">
-		<Header title="CHOOSE YOUR ME" />
+		<Header title="MEET THE MEs:" subtitle="(The inner creatures of Adrián Pedraza)" />
+		<MainActions />
 		<ProfileSelector/>
 		<Footer />
 	</div>,

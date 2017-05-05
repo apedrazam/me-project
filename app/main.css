@@ -55,6 +55,10 @@ h3 {
 	font-family: 'yanone_kaffeesatz-light';
 	font-size: 3.5vh;
 }
+h4 {
+	font-family: 'yanone_kaffeesatz-light';
+	font-size: 4.2vh;
+}
 button:focus{
 	outline: 0;
 }
@@ -66,23 +70,42 @@ button:focus{
 	overflow: hidden;
 }
 .main-container{
+	display: flex;
+	flex-wrap: wrap;
 	margin: 0 auto;
 	max-width: 1200px;
 	width:100%;
 }
+.header, .main-actions,
+.profile-selection, .footer{
+	flex-basis: 100%;
+}
 .header{
-	margin-bottom: 30px;
+	order: 1;
 	width: 100%;
 }
 .header h1 {
 	color: #4b83aa;
-	padding: 20px;
+	padding: 20px 10px 0;
 	position: relative;
 	text-align: center;
+}
+.header h4 {
+	padding: 0 10px 30px;
+	position: relative;
+	text-align: center;
+}
+.main-actions{
+	margin-bottom: 20px;
+	order: 2;
+}
+.profile-selection{
+	order: 3;
 }
 .footer{
 	bottom: 5px;
 	max-width: 1200px;
+	order: 4;
 	position: absolute;
 	width: 100%;
 

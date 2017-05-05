@@ -26,6 +26,7 @@
     padding: 20px 4%;
     position: relative;
 	overflow-y: scroll;
+	text-align: left;
     top: 10vh;
 	width: 80vw;
 }
@@ -72,12 +73,13 @@
     justify-content: space-between;
 }
 .about-text{
-	flex-basis: 42%;
+	flex-basis: 41%;
+	padding-top: 30px;
 }
 .interesting-data{
 	background-color: #c3c3ff;
-	flex-basis: 52%;
-	padding: 10px;
+	flex-basis: 50%;
+	padding: 10px 20px;
 }
 .about-text p,
 .interesting-data p{
