@@ -22,7 +22,7 @@
 	height: auto;
 	margin: 0 auto;
 	max-height: 85vh;
-	max-width: 900px;
+	max-width: 600px;
     padding: 20px 4%;
     position: relative;
 	overflow-y: scroll;
@@ -73,7 +73,7 @@
     justify-content: space-between;
 }
 .about-text{
-	flex-basis: 41%;
+	//flex-basis: 41%;
 	padding-top: 30px;
 }
 .interesting-data{

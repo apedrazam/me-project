@@ -11,9 +11,9 @@ class Modal extends React.Component {
 			<div className={this.props.modalData.isModalOpen}>
 				<div className="modal-wrapper">
 					<div className="modal-box">
-						<div className="modal-container">
+						<div className="modal-container" onClick={this.props.closeAction}>
 							<div className ="modal-header">
-								<Button value="X" category="close-btn" action={this.props.closeAction} />
+								<Button name="Close modal" category="close-btn" action={this.props.closeAction} image="./assets/images/close.svg" />
 								<h2>{this.props.modalData.title}</h2>
 							</div>
 							<div className="modal-content">

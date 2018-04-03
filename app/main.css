@@ -73,7 +73,7 @@ button:focus{
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 1400px;
 	width:100%;
 }
 .header, .main-actions,

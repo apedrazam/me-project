@@ -24,11 +24,7 @@
 	margin: 5px 20px;
 }
 
-.media-btn:hover .media-btn-circle{
-	background-color: #4c5f6d;
-}
-
-.media-btn-circle{
+.media-btn .media-btn-circle{
 	background-color: #4b83aa;
 	border-radius: 50%;
 	cursor: pointer;
@@ -37,7 +33,11 @@
 	width: 70px;
 }
 
-.media-btn-circle img{
+.media-btn:hover .media-btn-circle{
+	background-color: #4c5f6d;
+}
+
+.media-btn img{
 	padding: 20px;
 	height: 30px;
 	width: 30px;
@@ -47,9 +47,13 @@
     background: transparent;
     border: none;
     cursor: pointer;
-    font-family: 'yanone_kaffeesatz-light';
-    font-size: 20px;
 	position: absolute;
     right: 10px;
     top: 10px;
+}
+
+.close-btn img{
+	padding: 5px 0;
+	height: 20px;
+	width: 20px;
 }
