@@ -16,16 +16,33 @@
 	text-transform: uppercase;
 	width: 27%;
 }
-button.action-btn{
-	border: none;
-}
-a.action-btn{
-	padding: 10px 0;
-	text-decoration: none;
-}
-.media-btn{
 
+.media-btn{
+	background: transparent;
+	border: none;
+	display: inline-block;
+	margin: 5px 20px;
 }
+
+.media-btn:hover .media-btn-circle{
+	background-color: #4c5f6d;
+}
+
+.media-btn-circle{
+	background-color: #4b83aa;
+	border-radius: 50%;
+	cursor: pointer;
+	display: inline-block;
+	height: 70px;
+	width: 70px;
+}
+
+.media-btn-circle img{
+	padding: 20px;
+	height: 30px;
+	width: 30px;
+}
+
 .close-btn{
     background: transparent;
     border: none;

@@ -46,7 +46,7 @@
 }
 .profile-navigation{
 	position: absolute;
-	top: 35%;
+	top: 14vh;
 	width: 100%;
 }
 .next-profile,
@@ -64,7 +64,7 @@
 	position: absolute;
 }
 .prev-profile{
-	left: 5px;
+	left: -15px;
 	position: absolute;
 }
 .profile{
@@ -92,7 +92,8 @@
 	text-align: center;
 }
 .profile-image img{
-	max-height: 55vh;
+	max-height: 42vh;
+	min-height: 400px;
 	max-width: 100%;
 }
 .profile-description{

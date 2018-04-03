@@ -26,6 +26,9 @@
 	.profile-description{
 		font-size: 1em;
 	}
+	.profile-image img{
+		min-height: auto;
+	}
 	.skill-name{
 		font-size: .9em;
 	}

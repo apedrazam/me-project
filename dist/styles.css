@@ -211,16 +211,33 @@ button:focus{
 	text-transform: uppercase;
 	width: 27%;
 }
-button.action-btn{
-	border: none;
-}
-a.action-btn{
-	padding: 10px 0;
-	text-decoration: none;
-}
-.media-btn{
 
+.media-btn{
+	background: transparent;
+	border: none;
+	display: inline-block;
+	margin: 5px 20px;
 }
+
+.media-btn:hover .media-btn-circle{
+	background-color: #4c5f6d;
+}
+
+.media-btn-circle{
+	background-color: #4b83aa;
+	border-radius: 50%;
+	cursor: pointer;
+	display: inline-block;
+	height: 70px;
+	width: 70px;
+}
+
+.media-btn-circle img{
+	padding: 20px;
+	height: 30px;
+	width: 30px;
+}
+
 .close-btn{
     background: transparent;
     border: none;
@@ -278,7 +295,7 @@ a.action-btn{
 }
 .profile-navigation{
 	position: absolute;
-	top: 35%;
+	top: 14vh;
 	width: 100%;
 }
 .next-profile,
@@ -296,7 +313,7 @@ a.action-btn{
 	position: absolute;
 }
 .prev-profile{
-	left: 5px;
+	left: -15px;
 	position: absolute;
 }
 .profile{
@@ -324,7 +341,8 @@ a.action-btn{
 	text-align: center;
 }
 .profile-image img{
-	max-height: 55vh;
+	max-height: 42vh;
+	min-height: 400px;
 	max-width: 100%;
 }
 .profile-description{
@@ -483,6 +501,9 @@ p.question{
 	}
 	.profile-description{
 		font-size: 1em;
+	}
+	.profile-image img{
+		min-height: auto;
 	}
 	.skill-name{
 		font-size: .9em;

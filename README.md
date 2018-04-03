@@ -6,20 +6,16 @@
 
 3. JS and CSS minification
 
-4. Enable caché
+4. Dropdown for profile selection in mobile
 
-5. Dropdown for profile selection in mobile
+~5. Light up imagery~
 
-6. Contact Form 
+6. Add keyboard navigation
 
-7. Light up imagery
+7. Change star system
 
-8. Add keyboard navigation
+8. Enlighten active profile in profile-buttons
 
-9. Change star system
+9. Pray for vertical align method
 
-10. Enlighten active profile in profile-buttons
-
-11. Pray for vertical align method
-
-12. Divide profiles in two categories: Profesional/Others
+10. Divide profiles in two categories: Profesional/Others

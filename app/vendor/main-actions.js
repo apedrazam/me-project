@@ -36,9 +36,13 @@ class MainActions extends React.Component {
 		return(
 			<section  className="main-actions">
 				<div className="main-actions-container">
-					<LinkButton value="Contact" category="action-btn" link="mailto:hello@hyphenfrog.com" target="_self" />
-					<LinkButton value="Download CV" category="action-btn" link="./assets/AdrianPedrazaCV.pdf" target="_blank" />
-					<ActionButton value="About" category="action-btn" action={this.aboutModal} />
+					<div className="media-container">
+						<ActionButton title="About" name="About" category="media-btn" action={this.aboutModal} image="./assets/images/question.svg" />
+						<LinkButton title="Download CV" name="Download CV" category="media-btn" link="./assets/AdrianPedrazaCV.pdf" image="./assets/images/curriculum.svg" target="_blank" />
+						<LinkButton title="Email" name="Mail" category="media-btn" link="mailto:hello@apedraza.net" image="./assets/images/envelope.svg"  target="_self" />
+						<LinkButton title="LinkedIn" name="LinkedIn" category="media-btn" link="https://www.linkedin.com/in/adrianpedrazam/" image="./assets/images/linkedin-in.svg"  target="_blank" />
+						<LinkButton title="Github" name="Github" category="media-btn" link="https://github.com/hyphenfrog/me-project" image="./assets/images/github-alt.svg"  target="_blank" />
+					</div>
 				</div>
 				<Modal modalData={this.state} closeAction={this.closeModal} />
 			</section>
