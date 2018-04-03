@@ -38,7 +38,7 @@ class ProfileSelector extends React.Component{
 	}
 	next(e){
 		var currentProfile = this.state.id+1;
-		if (currentProfile > 10) {
+		if (currentProfile > 9) {
 			currentProfile = 0;
 			this.setState(ProfileData[currentProfile]);		
 		} else {
@@ -48,7 +48,7 @@ class ProfileSelector extends React.Component{
 	previous(e){
 		var currentProfile = this.state.id-1;
 		if (currentProfile < 0) {
-			currentProfile = 10;
+			currentProfile = 9;
 			this.setState(ProfileData[currentProfile]);		
 		} else {
 			this.setState(ProfileData[currentProfile]);
