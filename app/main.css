@@ -59,8 +59,8 @@ h4 {
 	font-family: 'yanone_kaffeesatz-light';
 	font-size: 4.2vh;
 }
-button:focus{
-	outline: 0;
+button{
+	padding: 0;
 }
 #app{
 	background-color: #F0F0FF;
@@ -104,10 +104,8 @@ button:focus{
 }
 .footer{
 	bottom: 5px;
-	max-width: 1200px;
 	order: 4;
 	position: absolute;
-	width: 100%;
 
 }
 .media-container{
@@ -120,7 +118,6 @@ button:focus{
 .copy-text{
 	color: #4b83aa;
 	font-size: .7em;
-	padding: 5px 0;
-	text-align: center;
+	padding: 5px 20px;
 }
 

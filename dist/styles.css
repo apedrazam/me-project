@@ -128,8 +128,8 @@ h4 {
 	font-family: 'yanone_kaffeesatz-light';
 	font-size: 4.2vh;
 }
-button:focus{
-	outline: 0;
+button{
+	padding: 0;
 }
 #app{
 	background-color: #F0F0FF;
@@ -173,10 +173,8 @@ button:focus{
 }
 .footer{
 	bottom: 5px;
-	max-width: 1200px;
 	order: 4;
 	position: absolute;
-	width: 100%;
 
 }
 .media-container{
@@ -189,8 +187,7 @@ button:focus{
 .copy-text{
 	color: #4b83aa;
 	font-size: .7em;
-	padding: 5px 0;
-	text-align: center;
+	padding: 5px 20px;
 }
 
 
@@ -258,14 +255,15 @@ button:focus{
 	flex-basis: 15%;
 	min-width: 140px;
 	padding: 1% 40px 30px 4%;
-	text-align: center;
+	text-align: left;
 }
 /* THIS IS HELL */
 .profile-button-container{
 	display: inline-block;
 	height: 6vw;
-	max-height: 70px;
-	max-width: 70px;
+	margin: 1px 2px;
+	max-height: 80px;
+	max-width: 80px;
 	position: relative;
 	width: 6vw;
 }
@@ -273,24 +271,29 @@ button:focus{
 	background-color: transparent;
 	border:none;
 	cursor: pointer;
-	height: 6vw;
+	height: 100%;
 	left: 0;
-	max-height: 70px;
-	max-width: 70px;
 	padding: 0;
 	position: absolute;
 	top: 0;
-	width: 6vw;
+	width: 100%;
 }
 .profile-button-img{
-	height: 6vw;
+	height: 100%;
 	left: 0;
-	max-height: 70px;
-	max-width: 70px;
 	position: absolute;
 	top: 0;
-	width: 6vw;
+	width: 100%;
 }
+
+.profile-button-container:hover .profile-button{
+	background-color: rgba(75, 131, 170, 0.6);
+}
+
+.profile-button-container:hover:nth-last-child(-n+4) .profile-button{
+	background-color: rgba(237, 209, 30, 0.6);
+}
+
 /*-------------*/
 .profile-container{
 	flex-basis: 85%;
@@ -300,7 +303,7 @@ button:focus{
 .profile-navigation{
 	position: absolute;
 	top: 14vh;
-	width: 100%;
+	width: 98%;
 }
 .next-profile,
 .prev-profile{
@@ -317,7 +320,7 @@ button:focus{
 	position: absolute;
 }
 .prev-profile{
-	left: -15px;
+	left: -40px;
 	position: absolute;
 }
 .profile{
@@ -336,7 +339,7 @@ button:focus{
 }
 .profile-image{
 	flex-basis: 42%;
-	padding: 18px 3.5% 0;
+	padding: 18px 3.5% 0 5px;
 }
 .profile-information{
 	flex-basis: 50%;
@@ -346,7 +349,7 @@ button:focus{
 }
 .profile-image img{
 	max-height: 42vh;
-	min-height: 400px;
+	min-height: 350px;
 	max-width: 100%;
 }
 .profile-description{
@@ -479,6 +482,10 @@ p.question{
     margin: 10px 0 15px;
     text-align: center;
 }@media (max-width: 768px),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi){
+	
+	.main-actions{
+		margin-bottom: 0;
+	}
 	.modal-box{
 	    top: 8vh;
 	}
@@ -489,8 +496,12 @@ p.question{
 	.profile-container{
 		flex-basis: 100%;
 	}
+	.profile-container{
+		padding: 0 15px 0;
+	}
 	.profile-buttons{
 		padding: 20px 34px 30px;
+		text-align: center;
 	}
 	/* THIS IS HELL */
 	.profile-button-container,
@@ -498,6 +509,14 @@ p.question{
 	.profile-button-img{
 		height: 8vw;
 		width: 8vw;
+		max-height:100px;
+		max-width: 100px;
+	}
+	.next-profile{
+		right: 5px;
+	}
+	.prev-profile{
+		left: 0;
 	}
 	/*-------------*/
 	.profile{
@@ -536,6 +555,9 @@ p.question{
 	}
 	.profile-selection{
 		order: 2;
+	}
+	.profile-buttons{
+		text-align: center;
 	}
 	.profile{
 		padding: 15px;
